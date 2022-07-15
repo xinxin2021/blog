@@ -24,10 +24,10 @@ baseurl: /
 #
 
 # 你的博客logo图片URL，建议尺寸不超过300px × 300px
-avatar: /images/icon.png
+avatar: https://s1.imagehub.cc/images/2022/07/15/icon400.png
 
 # 你的favicon（出现在浏览器tab上）图片URL，建议使用较小(64px × 64px)的图片
-favicon: /images/favicon.ico
+favicon: https://www.xinxin2021.tk/blog-favicon.ico
 
 
 # 菜单中的按钮
@@ -51,7 +51,7 @@ excerpt_separator: <!-- more -->
 
 # 你的社交网络链接，它们会作为图标出现在你的网站页脚中，可选填写
 footer-links: 
-  weibo:  https://weibo.com/u/7661070283
+  weibo:  u/7661070283
   behance: # https://www.behance.net/<>
   dribbble: # https://dribbble.com/<>
   email: xinxin@xinxin2021.tk
