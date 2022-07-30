@@ -1,9 +1,7 @@
 ---
-
 layout: page
 title: About
 permalink: /about/
-
 ---
 
 Hello，我是鑫鑫
@@ -30,19 +28,11 @@ HTML 20%
 
 ### 联系方式
 
-QQ：3585097686
+请看左边orz
 
-微博：[微博主页](https://weibo.com/xinxin2021)
-
-知乎：[知乎主页](https://www.zhihu.com/people/xinxin-python)
-
-GitHub：[GitHub主页](https://github.com/xinxin2021)
-
-B站：[B站主页](https://space.bilibili.com/687889425)
+漏了一个没找到图标：
 
 西瓜视频：[西瓜视频主页](https://www.ixigua.com/home/2454523622734035)
-
-邮箱：[blog@xinxin2021.tk](mailto:blog@xinxin2021.tk)
 
 ### 转载
 
@@ -56,6 +46,6 @@ B站：[B站主页](https://space.bilibili.com/687889425)
 
 感谢[GitHub Pages](https://pages.github.com)，本博客托管于GitHub Pages。
 
-感谢[Freenom](https://freenom.com)提供的免费域名及[Cloudflare](https://cloudflare.com)提供的免费加速服务。
+感谢[Freenom](https://freenom.com)提供的免费域名及[Cloudflare](https://cloudflare.com)提供的免费加速及防DDoS服务。
 
 感谢Markdown写作格式及[Git](https://git-scm.com)分布式版本控制系统。
