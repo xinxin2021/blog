@@ -52,18 +52,11 @@ excerpt_separator: <!-- more -->
 # 你的社交网络链接，它们会作为图标出现在你的网站页脚中，可选填写
 footer-links: 
   weibo: 7661070283
-  behance: # https://www.behance.net/<>
-  dribbble: # https://dribbble.com/<>
   email: xinxin@xinxin2021.tk
   facebook: #https://www.facebook.com/<>
-  flickr: #https://www.flickr.com/<>
   github: xinxin2021
   instagram: #https://instagram.com/<>
-  linkedin: #https://www.linkedin.com/in/<>
-  pinterest: #https://www.pinterest.com/<>
   rss: 
-  stackoverflow: # http://stackoverflow.com/<>
-  tumblr: # https://<username>.tumblr.com
   twitter: # https://www.twitter.com/<your_twitter_username> 
   youtube: # channel/<your_long_string> or user/<user-name>
   zhihu: xinxin-python
