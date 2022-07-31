@@ -56,7 +56,7 @@ footer-links:
   facebook: #https://www.facebook.com/<>
   github: xinxin2021
   instagram: #https://instagram.com/<>
-  rss: 
+  rss: /feed.xml
   twitter: # https://www.twitter.com/<your_twitter_username> 
   youtube: # channel/<your_long_string> or user/<user-name>
   zhihu: xinxin-python
