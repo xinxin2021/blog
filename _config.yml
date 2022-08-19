@@ -64,7 +64,7 @@ footer-links:
   qq: 3585097686
 
 # 站点页脚的文字
-footer-text: <img src="https://www.xinxin2021.tk/ipv6-icon.png" alt="IPv6 Icon" width="512px" height="512px">本站已支持IPv6访问
+footer-text: <img src="https://www.xinxin2021.tk/ipv6-icon.png" alt="IPv6 Icon" style="width:24px;height:24px;padding:0px;margin:0px;vertical-align:middle;">本站已支持IPv6访问
 
 #
 # 评论，注意，请不要同时添加多种不同的评论区
