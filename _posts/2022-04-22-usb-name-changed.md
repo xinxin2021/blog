@@ -7,7 +7,7 @@ author: 鑫鑫
 comments: true
 ---
 
-本视频改自[av297444296](https://www.bilibili.com/video/BV1tF411x7Wk)，如有侵权请联系[侵权联系邮箱](mailto:tort@xinxin2021.tk)
+本视频改自[av297444296](/goto?link=https://www.bilibili.com/video/BV1tF411x7Wk)，如有侵权请联系[侵权联系邮箱](mailto:tort@xinxin2021.tk)
 
 ## USB-IF改名历史
 

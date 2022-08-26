@@ -32,7 +32,7 @@ HTML 20%
 
 漏了一个没找到图标：
 
-西瓜视频：[西瓜视频主页](https://www.ixigua.com/home/2454523622734035)
+西瓜视频：[西瓜视频主页](/goto?link=https://www.ixigua.com/home/2454523622734035)
 
 ### 转载
 
@@ -40,12 +40,12 @@ HTML 20%
 
 ## 致谢
 
-感谢[开源博客LOFFER](https://fromendworld.github.io/LOFFER)，本博客由LOFFER改编而来。
+感谢[开源博客LOFFER](/goto?link=https://fromendworld.github.io/LOFFER)，本博客由LOFFER改编而来。
 
-感谢[Jekyll](https://github.com/jekyll/jekyll)，本博客由Jekyll搭建。
+感谢[Jekyll](/goto?link=https://github.com/jekyll/jekyll)，本博客由Jekyll搭建。
 
-感谢[GitHub Pages](https://pages.github.com)，本博客托管于GitHub Pages。
+感谢[GitHub Pages](/goto?link=https://pages.github.com)，本博客托管于GitHub Pages。
 
-感谢[Freenom](https://freenom.com)提供的免费域名及[Cloudflare](https://cloudflare.com)提供的免费加速及防DDoS服务。
+感谢[Freenom](/goto?link=https://freenom.com)提供的免费域名及[Cloudflare](https://cloudflare.com)提供的免费加速及防DDoS服务。
 
-感谢Markdown写作格式及[Git](https://git-scm.com)分布式版本控制系统。
+感谢Markdown写作格式及[Git](/goto?link=https://git-scm.com)分布式版本控制系统。
