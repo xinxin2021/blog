@@ -79,7 +79,7 @@ gitalk:
   clientSecret: 0d57c5430d3ca66280e87f587a82221f8114f133
   repo: blog
   owner: xinxin2021
-  proxy: 
+  proxy: https://blog-proxy.xinxin2021.tk/github/login/oauth/access-token
 
 # 输入Google Analytics web tracking code
 google_analytics:
