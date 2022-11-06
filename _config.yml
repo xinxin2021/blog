@@ -41,7 +41,7 @@ navigation:
   - name: 标签
     url: /tags
   - name: 反馈
-    url: https://support.qq.com/product/441110
+    url: https://support.qq.com/product/378946
 
 # 每页的文章数
 paginate: 8
