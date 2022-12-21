@@ -24,7 +24,7 @@ baseurl: /
 #
 
 # 你的博客logo图片URL，建议尺寸不超过300px × 300px
-avatar: https://s1.imagehub.cc/images/2022/07/15/icon400.png
+avatar: https://s1.imagehub.cc/images/2022/12/21/20c185c419a87ce16d7161a94887440d.png
 
 # 你的favicon（出现在浏览器tab上）图片URL，建议使用较小(64px × 64px)的图片
 favicon: https://www.xinxin2021.tk/blog-favicon.ico
@@ -61,7 +61,7 @@ footer-links:
   youtube: # channel/<your_long_string> or user/<user-name>
   zhihu: xinxin-python
   bilibili: 687889425
-  qq: 921793592
+  qq: 3585097686
 
 # 站点页脚的文字
 footer-text: 本站已支持IPv6访问
