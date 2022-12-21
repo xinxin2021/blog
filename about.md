@@ -34,14 +34,6 @@ Hello，我是鑫鑫
 
 未经[@xinxin2021](mailto:blog@xinxin2021.tk)允许，禁止擅自转载本博客文章。
 
-## 赞助
-
-作为一个学生党，希望各位金主爸爸可以给我一点点赞助，哪怕是一块钱也好！
-
-当然了，不赞助也没关系！
-
-![](https://s1.imagehub.cc/images/2022/10/16/wechat-and-alipay.png)
-
 ## 致谢
 
 感谢[开源博客LOFFER](/goto?link=https://fromendworld.github.io/LOFFER)，本博客由LOFFER改编而来。
