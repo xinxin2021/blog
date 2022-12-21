@@ -7,13 +7,21 @@ author: 鑫鑫
 comments: true
 ---
 
+**阅前提示**
+
+~~本文章内容因ImageHub方未知原因，导致内容图片大量缺失，请谨慎阅读~~
+
+已修复此问题，可放心阅读
+
+---
+
 最近我亲爱的[Gitalk](https://gitalk.github.io)评论区又双叒叕抽风了！！！
 
 报了一个Network Error的错误，于是我就找到一篇帖子，使用Vercel搭建一个服务用来修复这个问题（原文不知道去哪了）
 
 首先打开[这个GitHub项目地址](https://github.com/caibingcheng/proxy-vercel)，进去之后直接点击README中的Deploy图片进行部署，第一次使用需要登录，建议直接使用GitHub登录，登陆就不放图片了，可能还要授权一些权限，各位可以自己找一找。
 
-![](https://s1.imagehub.cc/images/2022/10/15/clicktodeploy.png)
+![](https://s1.imagehub.cc/images/2022/12/21/94e24b1c6066cacb6ac5873a3afd3f3e.png)
 
 随后按照这样的格式填进去，`https://<vercel-domain>/github/login/oauth/access_token`，填到`proxy`一栏。
 
@@ -38,7 +46,7 @@ gitalk:
 
 首先去域名服务商添加一条CNAME记录，把一个域名设为`cname.vercel-dns.com`的别名，TTL建议选最大。
 
-![](https://s1.imagehub.cc/images/2022/10/15/blog-proxy-cname.png)
+![](https://s1.imagehub.cc/images/2022/12/21/6722e5a664a869d4fcce074ec6b0c5e7.png)
 
 ### 第二步 添加域名
 
@@ -46,10 +54,8 @@ gitalk:
 
 随后直接输入域名，然后点`Add`。
 
-![](https://s1.imagehub.cc/images/2022/10/15/vercel-settings-domain.png)
+![](https://s1.imagehub.cc/images/2022/12/21/56407bc5110d6500b853ce9f23cc5503.png)
 
 ### 第三步 等待
 
 随后等待Vercel自动部署和颁发证书即可。
-
-
