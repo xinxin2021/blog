@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 《为人民服务》
-date: 2022-12-28
+date: 1944-09-08
 tags: [Others]
 author: 毛泽东
 comments: false
