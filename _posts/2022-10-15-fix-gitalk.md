@@ -59,3 +59,7 @@ gitalk:
 ### 第三步 等待
 
 随后等待Vercel自动部署和颁发证书即可。
+
+---
+
+未经[@xinxin2021](mailto:blog@xinxin2021.tk)允许，严禁擅自转载。
