@@ -15,11 +15,11 @@ comments: true
 
 ---
 
-最近我亲爱的[Gitalk](https://gitalk.github.io)评论区又双叒叕抽风了！！！
+最近我亲爱的[Gitalk](/goto?link=https://gitalk.github.io)评论区又双叒叕抽风了！！！
 
 报了一个Network Error的错误，于是我就找到一篇帖子，使用Vercel搭建一个服务用来修复这个问题（原文不知道去哪了）
 
-首先打开[这个GitHub项目地址](https://github.com/caibingcheng/proxy-vercel)，进去之后直接点击README中的Deploy图片进行部署，第一次使用需要登录，建议直接使用GitHub登录，登陆就不放图片了，可能还要授权一些权限，各位可以自己找一找。
+首先打开[这个GitHub项目地址](/goto?link=https://github.com/caibingcheng/proxy-vercel)，进去之后直接点击README中的Deploy图片进行部署，第一次使用需要登录，建议直接使用GitHub登录，登陆就不放图片了，可能还要授权一些权限，各位可以自己找一找。
 
 ![](https://s1.imagehub.cc/images/2022/12/21/94e24b1c6066cacb6ac5873a3afd3f3e.png)
 
