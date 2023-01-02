@@ -34,6 +34,8 @@ Hello，我是鑫鑫
 
 未经[@xinxin2021](mailto:blog@xinxin2021.tk)允许，禁止擅自转载本博客文章。
 
+如有侵权，请联系[侵权专用处理邮箱](mailto:tort@xinxin2021.tk)
+
 ## 致谢
 
 感谢[开源博客LOFFER](/goto?link=https://fromendworld.github.io/LOFFER)，本博客由LOFFER改编而来。
