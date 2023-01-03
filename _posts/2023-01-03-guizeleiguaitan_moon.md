@@ -696,4 +696,4 @@ toc: true
 
 ---
 
-本文来自[百度贴吧](https://tieba.baidu.com/p/7756751994)，如有侵权，请联系[侵权联系邮箱](mailto:tort@xinxin2021.tk)
+本文来自[百度贴吧](/goto?link=https://tieba.baidu.com/p/7756751994)，如有侵权，请联系[侵权联系邮箱](mailto:tort@xinxin2021.tk)
