@@ -68,5 +68,3 @@ USB 3.2发布后，来到了真正的烧脑巅峰，满血版本USB 3.2(20Gbps)�
 4. 在USB-C数据线认证环节，厂商必须先向USB-IF申请专用Logo，再送测带有Logo的样品
 
 即日起，USB-IF组织已不再接受USB 3.2 10Gbps和100W规格的USB-C数据线认证
-
-未经[@xinxin2021](mailto:blog@xinxin2021.tk)允许，禁止擅自转载。

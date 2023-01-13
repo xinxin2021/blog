@@ -1872,6 +1872,6 @@ toc: true
 
 ---
 
-未经[@xinxin2021](mailto:blog@xinxin2021.tk)允许，严禁擅自转载。
+本文章来源于网络，如有侵权，请联系[侵权联系邮箱](mailto:tort@xinxin2021.tk)
 
 内容可能因作者疏忽与原文有出入，如发现，请联系[@xinxin2021](mailto:blog@xinxin2021.tk)。
