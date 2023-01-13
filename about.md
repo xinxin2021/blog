@@ -12,7 +12,7 @@ Hello，我是鑫鑫
 
 爱好……肯定是编程啊！
 
-感觉除了Python啥都不会
+感觉除了Python和C++啥都不会
 
 ![C++](https://img.shields.io/static/v1?logo=cplusplus&logoColor=white&label=C%2B%2B&message=5%25&color=4e733a&labelColor=4e733a&style=flat-square)
 ![C](https://img.shields.io/static/v1?logo=c&logoColor=white&label=C&message=1%25&color=153961&labelColor=153961&style=flat-square)
@@ -32,9 +32,9 @@ Hello，我是鑫鑫
 
 ### 转载
 
-未经[@xinxin2021](mailto:blog@xinxin2021.tk)允许，禁止擅自转载本博客文章。
+每篇文章的末尾都标注了协议或标注自由转载。无标注的代表作者不确定。
 
-如有侵权，请联系[侵权专用处理邮箱](mailto:tort@xinxin2021.tk)
+文章内容如有侵权，请联系[侵权联系邮箱](mailto:tort@xinxin2021.tk)
 
 ## 致谢
 
@@ -44,6 +44,6 @@ Hello，我是鑫鑫
 
 感谢[GitHub Pages](/goto?link=https://pages.github.com)，本博客托管于GitHub Pages。
 
-感谢[Freenom](/goto?link=https://freenom.com)提供的免费域名及[Cloudflare](https://cloudflare.com)提供的免费加速及防DDoS服务。
+感谢[Freenom](/goto?link=https://freenom.com)提供的免费域名及[Cloudflare](/goto?link=https://cloudflare.com)提供的免费加速及防DDoS服务。
 
 感谢Markdown写作格式及[Git](/goto?link=https://git-scm.com)分布式版本控制系统。
