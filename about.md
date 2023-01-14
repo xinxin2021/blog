@@ -78,6 +78,6 @@ CC是Creative Commons的简称，中国大陆译名为“知识共享”。CC协
 
 ---
 
-![](https://licensebuttons.net/l/zero/1.0/88x31.png)
+[![](https://licensebuttons.net/l/zero/1.0/88x31.png)](/goto?link=https://creativecommons.org/publicdomain/zero/1.0/)
 
 此关于页使用[CC0 1.0](/goto?link=https://creativecommons.org/publicdomain/zero/1.0/)协议进行许可。
