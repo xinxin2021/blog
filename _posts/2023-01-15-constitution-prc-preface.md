@@ -32,3 +32,7 @@ comments: true
 中国革命、建设、改革的成就是同世界人民的支持分不开的。中国的前途是同世界的前途紧密地联系在一起的。中国坚持独立自主的对外政策，坚持互相尊重主权和领土完整、互不侵犯、互不干涉内政、平等互利、和平共处的五项原则，坚持和平发展道路，坚持互利共赢开放战略，发展同各国的外交关系和经济、文化交流，推动构建人类命运共同体；坚持反对帝国主义、霸权主义、殖民主义，加强同世界各国人民的团结，支持被压迫民族和发展中国家争取和维护民族独立、发展民族经济的正义斗争，为维护世界和平和促进人类进步事业而努力。
 
 本宪法以法律的形式确认了中国各族人民奋斗的成果，规定了国家的根本制度和根本任务，是国家的根本法，具有最高的法律效力。全国各族人民、一切国家机关和武装力量、各政党和各社会团体、各企业事业组织，都必须以宪法为根本的活动准则，并且负有维护宪法尊严、保证宪法实施的职责。
+
+---
+
+[联系鑫鑫](mailto:blog@xinxin2021.tk) · [侵权联系](mailto:tort@xinxin2021.tk) —— 分享 · [QZone](/goto?link=https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https%3A%2F%2Fblog.xinxin2021.tk%2Fconstitution-prc-preface%2F&title=%E3%80%8A%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD%E5%AE%AA%E6%B3%95%EF%BC%882018%E4%BF%AE%E6%AD%A3%E6%96%87%E6%9C%AC%EF%BC%89%E3%80%8B%E5%BA%8F%E8%A8%80%E9%83%A8%E5%88%86&site=%E9%91%AB%E5%8D%9A%E5%AE%A2) · [Weibo](/goto?link=https://service.weibo.com/share/share.php?url=https%3A%2F%2Fblog.xinxin2021.tk%2Fconstitution-prc-preface%2F&count=1&title=%E3%80%8A%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD%E5%AE%AA%E6%B3%95%EF%BC%882018%E4%BF%AE%E6%AD%A3%E6%96%87%E6%9C%AC%EF%BC%89%E3%80%8B%E5%BA%8F%E8%A8%80%E9%83%A8%E5%88%86&language=zh_cn)

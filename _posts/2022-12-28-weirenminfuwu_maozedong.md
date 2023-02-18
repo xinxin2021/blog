@@ -18,3 +18,7 @@ comments: false
 中国人民正在受难，我们有责任解救他们，我们要努力奋斗。要奋斗就会有牺牲，死人的事是经常发生的。但是我们想到人民的利益，想到大多数人民的痛苦，我们为人民而死，就是死得其所。不过，我们应当尽量地减少那些不必要的牺牲。我们的干部要关心每一个战士，一切革命队伍的人都要互相关心，互相爱护，互相帮助。
 
 今后我们的队伍里，不管死了谁，不管是炊事员，是战士，只要他是做过一些有益的工作的，我们都要给他送葬，开追悼会。这要成为一个制度。这个方法也要介绍到老百姓那里去。村上的人死了，开个追悼会。用这样的方法，寄托我们的哀思，使整个人民团结起来。
+
+---
+
+[联系鑫鑫](mailto:blog@xinxin2021.tk) · [侵权联系](mailto:tort@xinxin2021.tk) —— 分享 · [QZone](/goto?link=https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https%3A%2F%2Fblog.xinxin2021.tk%2Fweirenminfuwu_maozedong%2F&title=%E3%80%8A%E4%B8%BA%E4%BA%BA%E6%B0%91%E6%9C%8D%E5%8A%A1%E3%80%8B&site=%E9%91%AB%E5%8D%9A%E5%AE%A2) · [Weibo](/goto?link=https://service.weibo.com/share/share.php?url=https%3A%2F%2Fblog.xinxin2021.tk%2Fweirenminfuwu_maozedong%2F&count=1&title=%E3%80%8A%E4%B8%BA%E4%BA%BA%E6%B0%91%E6%9C%8D%E5%8A%A1%E3%80%8B&language=zh_cn)
