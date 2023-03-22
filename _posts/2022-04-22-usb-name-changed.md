@@ -7,7 +7,7 @@ author: 鑫鑫
 comments: true
 ---
 
-本视频改自[av297444296](/goto?link=https://www.bilibili.com/video/BV1tF411x7Wk)，如有侵权请联系[侵权联系邮箱](mailto:tort@xinxin2021.tk)
+本视频改自[av297444296](https://www.bilibili.com/video/BV1tF411x7Wk)，如有侵权请联系[侵权联系邮箱](mailto:tort@xinxin2021.tk)
 
 ## USB-IF改名历史
 
@@ -71,4 +71,4 @@ USB 3.2发布后，来到了真正的烧脑巅峰，满血版本USB 3.2(20Gbps)�
 
 ---
 
-[联系作者](mailto:blog@xinxin2021.tk) · [侵权联系](mailto:tort@xinxin2021.tk) —— 分享 · [QZone](/goto?link=https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https%3A%2F%2Fblog.xinxin2021.tk%2Fusb-name-changed%2F&title=USB%E5%91%BD%E5%90%8D%E5%8F%98%E5%8C%96%E5%8F%B2&site=%E9%91%AB%E5%8D%9A%E5%AE%A2) · [Weibo](/goto?link=https://service.weibo.com/share/share.php?url=https%3A%2F%2Fblog.xinxin2021.tk%2Fusb-name-changed%2F&count=1&title=USB%E5%91%BD%E5%90%8D%E5%8F%98%E5%8C%96%E5%8F%B2&language=zh_cn)
+[联系作者](mailto:blog@xinxin2021.tk) · [侵权联系](mailto:tort@xinxin2021.tk) —— 分享 · [QZone](https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https%3A%2F%2Fblog.xinxin2021.tk%2Fusb-name-changed%2F&title=USB%E5%91%BD%E5%90%8D%E5%8F%98%E5%8C%96%E5%8F%B2&site=%E9%91%AB%E5%8D%9A%E5%AE%A2) · [Weibo](https://service.weibo.com/share/share.php?url=https%3A%2F%2Fblog.xinxin2021.tk%2Fusb-name-changed%2F&count=1&title=USB%E5%91%BD%E5%90%8D%E5%8F%98%E5%8C%96%E5%8F%B2&language=zh_cn)

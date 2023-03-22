@@ -6,7 +6,7 @@ tags: [Others]
 author: 鑫鑫
 ---
 
-以下内容出自我小号的QQ空间说说。
+以下内容出自我小号的[QQ空间](https://qzone.qq.com)说说。
 
 **2022年12月29日 14:25**
 
@@ -38,6 +38,6 @@ author: 鑫鑫
 
 [![](https://licensebuttons.net/l/by-nc-sa/3.0/88x31.png)](/goto?link=https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-本文章采用[CC-BY-NC-SA 4.0](/goto?link=https://creativecommons.org/licenses/by-nc-sa/4.0/)协议进行许可。
+本文章采用[CC-BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)协议进行许可。
 
-[联系作者](mailto:blog@xinxin2021.tk) · [侵权联系](mailto:tort@xinxin2021.tk) —— 分享 · [QZone](/goto?link=https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https%3A%2F%2Fblog.xinxin2021.tk%2Ffengqingbuyaohuang%2F&title=%E8%AF%84%E4%BB%B7%E3%80%8A%E9%A3%8E%E6%83%85%E4%B8%8D%E6%91%87%E6%99%83%E3%80%8B&site=%E9%91%AB%E5%8D%9A%E5%AE%A2) · [Weibo](/goto?link=https://service.weibo.com/share/share.php?url=https%3A%2F%2Fblog.xinxin2021.tk%2Ffengqingbuyaohuang%2F&count=1&title=%E8%AF%84%E4%BB%B7%E3%80%8A%E9%A3%8E%E6%83%85%E4%B8%8D%E6%91%87%E6%99%83%E3%80%8B&language=zh_cn)
+[联系作者](mailto:blog@xinxin2021.tk) · [侵权联系](mailto:tort@xinxin2021.tk) —— 分享 · [QZone](https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https%3A%2F%2Fblog.xinxin2021.tk%2Ffengqingbuyaohuang%2F&title=%E8%AF%84%E4%BB%B7%E3%80%8A%E9%A3%8E%E6%83%85%E4%B8%8D%E6%91%87%E6%99%83%E3%80%8B&site=%E9%91%AB%E5%8D%9A%E5%AE%A2) · [Weibo](https://service.weibo.com/share/share.php?url=https%3A%2F%2Fblog.xinxin2021.tk%2Ffengqingbuyaohuang%2F&count=1&title=%E8%AF%84%E4%BB%B7%E3%80%8A%E9%A3%8E%E6%83%85%E4%B8%8D%E6%91%87%E6%99%83%E3%80%8B&language=zh_cn)
