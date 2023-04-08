@@ -16,8 +16,6 @@ Hello，我是鑫鑫
 
 请看左边orz
 
-漏了一个没找到图标：
-
 ### 转载
 
 每篇文章的末尾都标注了许可协议，大多是[CC-BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)或[CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0)。无标注的代表作者不确定。
