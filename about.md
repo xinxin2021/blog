@@ -12,23 +12,11 @@ Hello，我是鑫鑫
 
 爱好……肯定是编程啊！
 
-感觉除了Python和C++啥都不会
-
-![C++](https://img.shields.io/static/v1?logo=cplusplus&logoColor=white&label=C%2B%2B&message=5%25&color=4e733a&labelColor=4e733a&style=flat-square)
-![C](https://img.shields.io/static/v1?logo=c&logoColor=white&label=C&message=1%25&color=153961&labelColor=153961&style=flat-square)
-![Scratch](https://img.shields.io/static/v1?logo=scratch&logoColor=white&label=Scratch&message=99%25&color=fbac1b&labelColor=fbac1b&style=flat-square)
-![Python](https://img.shields.io/static/v1?logo=python&logoColor=white&label=Python&message=37%25&color=376d9c&labelColor=376d9c&style=flat-square)
-![HTML5](https://img.shields.io/static/v1?logo=html5&logoColor=white&label=HTML5&message=25%25&color=f06427&labelColor=f06427&style=flat-square)
-![CSS3](https://img.shields.io/static/v1?logo=css3&logoColor=white&label=CSS3&message=15%25&color=1a97d1&labelColor=1a97d1&style=flat-square)
-![JavaScript](https://img.shields.io/static/v1?logo=javascript&logoColor=white&label=JavaScript&message=17%25&color=e3a029&labelColor=e3a029&style=flat-square)
-
 ### 联系方式
 
 请看左边orz
 
 漏了一个没找到图标：
-
-西瓜视频：[西瓜视频主页](https://www.ixigua.com/home/2454523622734035)
 
 ### 转载
 
@@ -66,7 +54,7 @@ CC是Creative Commons的简称，中国大陆译名为“知识共享”。CC协
 
 ### 友情链接
 
-[部分中华人民共和国法律法规](https://law.xinxin2021.tk)(共73部) [个人介绍](https://www.xinxin2021.tk)
+[部分中华人民共和国法律法规](https://law.xinxin2021.tk)(共76部) [个人介绍](https://www.xinxin2021.tk)
 
 ## 致谢
 
