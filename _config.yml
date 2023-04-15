@@ -86,7 +86,7 @@ gitalk:
   proxy: https://blog-proxy.xinxin2021.tk/github/login/oauth/access_token
 
 # 输入Google Analytics web tracking code
-google_analytics:
+google_analytics: G-Z55V8MJGY8
 
 utteranc:
   repo: # Your github repo path, also see: https://utteranc.es
