@@ -48,7 +48,7 @@ CC是Creative Commons的简称，中国大陆译名为“知识共享”。CC协
 
 ### 友情链接
 
-[部分中华人民共和国法律法规](https://law.xinxin2021.tk)(共76部) [个人介绍](https://www.xinxin2021.tk) [我爹的博客](https://blog.xilong.tk)
+[部分中华人民共和国法律法规](https://law.xinxin2021.tk)(共76部) [个人介绍](https://www.xinxin2021.tk) [我爹的博客](https://blog.xilong.tk) [MacWinLin工作室官方博客](https://blog.macwinlin.ml)
 
 ## 致谢
 
