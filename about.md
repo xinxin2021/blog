@@ -10,9 +10,7 @@ Hello，我是鑫鑫
 
 我 学生党一枚
 
-爱好……肯定是编程啊！
-
-# 
+爱好……肯定是编程啊！ 
 
 ### 转载
 
@@ -50,7 +48,7 @@ CC是Creative Commons的简称，中国大陆译名为“知识共享”。CC协
 
 ### 友情链接
 
-[部分中华人民共和国法律法规](https://law.xinxin2021.tk)(共76部) [个人介绍](https://www.xinxin2021.tk)
+[部分中华人民共和国法律法规](https://law.xinxin2021.tk)(共76部) [个人介绍](https://www.xinxin2021.tk) [我爹的博客](https://blog.xilong.tk)
 
 ## 致谢
 
