@@ -6,7 +6,7 @@ permalink: /about/
 
 Hello，我是鑫鑫
 
-### 掌握语言
+### 简介
 
 我 学生党一枚
 
