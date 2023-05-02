@@ -6,6 +6,8 @@ tags: [规则类怪谈]
 author: 鑫鑫
 comments: true
 toc: true
+warn: true
+info: 惊悚内容
 ---
 
 **温馨提示**
