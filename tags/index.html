@@ -8,6 +8,28 @@ permalink: /tags/
   <h2>No post found</h2>
 {% endif %}
 
+<style type="text/css">
+  .warn-bg {
+    text-align: center;
+    display: inline-block;
+    background: #ffefd4;
+    border-radius: 5px;
+  }
+  .error-bg {
+    text-align: center;
+    display: inline-block;
+    background: #ffb5b5;
+    border-radius: 5px;
+  }
+  .middle-parent::after, .middle-son{
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .middle-parent::after{
+    height: 100%;
+  }
+</style>
+
 <div class="tags">
   <ul class="label">
     {% for tag in site.tags %}
