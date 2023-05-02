@@ -7,16 +7,6 @@ author: 鑫鑫
 comments: true
 ---
 
-**阅前提示**
-
-~~本文章内容因ImageHub方未知原因，导致内容图片大量缺失，请谨慎阅读~~
-
-已修复此问题，可放心阅读
-
-<!-- more -->
-
----
-
 最近我亲爱的[Gitalk](https://gitalk.github.io)评论区又双叒叕抽风了！！！
 
 报了一个Network Error的错误，于是我就找到一篇帖子，使用Vercel搭建一个服务用来修复这个问题（原文不知道去哪了）
