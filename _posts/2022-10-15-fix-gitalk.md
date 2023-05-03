@@ -5,6 +5,7 @@ date: 2022-10-15
 tags: [Others]
 author: 鑫鑫
 comments: true
+license: CC-BY-NC-SA 4.0
 ---
 
 最近我亲爱的[Gitalk](https://gitalk.github.io)评论区又双叒叕抽风了！！！

@@ -5,6 +5,7 @@ date: 2023-01-08
 tags: [Others]
 author: 鑫鑫
 comments: true
+license: CC-BY-NC-SA 4.0
 ---
 
 以下内容出自我小号的[QQ空间](https://qzone.qq.com)说说。

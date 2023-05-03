@@ -5,6 +5,7 @@ date: 2023-01-30
 tags: [Others]
 author: 鑫鑫
 comments: true
+license: CC-BY-NC-SA 4.0
 ---
 
 在很久以前的一天，我刷到了[一个视频](https://www.bilibili.com/video/BV1We411M7FF)，随后，我按照这个视频里的群规为底板，做了一个我自己群的“法律版群规”。
