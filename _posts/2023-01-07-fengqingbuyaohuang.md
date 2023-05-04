@@ -5,7 +5,7 @@ date: 2023-01-08
 tags: [Others]
 author: 鑫鑫
 comments: true
-license: CC-BY-NC-SA 4.0
+license: CC-BY-NC 4.0 Intl
 ---
 
 以下内容出自我小号的[QQ空间](https://qzone.qq.com)说说。
@@ -38,8 +38,8 @@ license: CC-BY-NC-SA 4.0
 
 ---
 
-[![](https://licensebuttons.net/l/by-nc-sa/3.0/88x31.png)](/goto?link=https://creativecommons.org/licenses/by-nc-sa/4.0/)
+[![](https://licensebuttons.net/l/by-nc/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)
 
-本文章采用[CC-BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)协议进行许可。
+本文章采用[CC-BY-NC 4.0国际](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)许可协议进行许可(不包括引用的知识共享许可证徽章)。
 
 [联系作者](mailto:blog@xinxin2021.tk) · [侵权联系](mailto:tort@xinxin2021.tk) —— 分享 · [QZone](https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https%3A%2F%2Fblog.xinxin2021.tk%2Ffengqingbuyaohuang%2F&title=%E8%AF%84%E4%BB%B7%E3%80%8A%E9%A3%8E%E6%83%85%E4%B8%8D%E6%91%87%E6%99%83%E3%80%8B&site=%E9%91%AB%E5%8D%9A%E5%AE%A2) · [Weibo](https://service.weibo.com/share/share.php?url=https%3A%2F%2Fblog.xinxin2021.tk%2Ffengqingbuyaohuang%2F&count=1&title=%E8%AF%84%E4%BB%B7%E3%80%8A%E9%A3%8E%E6%83%85%E4%B8%8D%E6%91%87%E6%99%83%E3%80%8B&language=zh_cn)

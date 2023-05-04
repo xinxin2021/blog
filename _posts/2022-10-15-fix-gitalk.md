@@ -5,7 +5,7 @@ date: 2022-10-15
 tags: [Others]
 author: 鑫鑫
 comments: true
-license: CC-BY-NC-SA 4.0
+license: CC-BY-NC 4.0 Intl
 ---
 
 最近我亲爱的[Gitalk](https://gitalk.github.io)评论区又双叒叕抽风了！！！
@@ -55,8 +55,8 @@ gitalk:
 
 ---
 
-[![](https://licensebuttons.net/l/by-nc-sa/3.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0)
+[![](https://licensebuttons.net/l/by-nc/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)
 
-本文章及其引用的图片(不包括引用的知识共享许可证徽章)采用[CC-BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)协议进行许可。
+本文章及其引用的图片采用[CC-BY-NC 4.0国际](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)许可协议进行许可(不包括引用的知识共享许可证徽章)。
 
 [联系作者](mailto:blog@xinxin2021.tk) · [侵权联系](mailto:tort@xinxin2021.tk) —— 分享 · [QZone](https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https%3A%2F%2Fblog.xinxin2021.tk%2Ffix-gitalk%2F&title=%E5%85%B3%E4%BA%8EGitalk%E8%AF%84%E8%AE%BA%E5%8C%BA%E7%9A%84%E4%BF%AE%E5%A4%8D&site=%E9%91%AB%E5%8D%9A%E5%AE%A2) · [Weibo](https://service.weibo.com/share/share.php?url=https%3A%2F%2Fblog.xinxin2021.tk%2Ffix-gitalk%2F&count=1&title=%E5%85%B3%E4%BA%8EGitalk%E8%AF%84%E8%AE%BA%E5%8C%BA%E7%9A%84%E4%BF%AE%E5%A4%8D&language=zh_cn)
