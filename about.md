@@ -14,7 +14,7 @@ Hello，我是鑫鑫
 
 ### 转载
 
-每篇文章的末尾都标注了许可协议，大多是[CC-BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)或[CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0)。无标注的代表作者不确定。
+每篇文章的末尾都标注了许可协议，大多是[CC-BY-NC 4.0 International](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)或[CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/deed.zh)。无标注的代表作者不确定。
 
 ---
 
@@ -30,7 +30,7 @@ CC是Creative Commons的简称，中国大陆译名为“知识共享”。CC协
 > 
 > - 不得增加额外限制 – 你不能增设任何法律限制或是技术限制，来限制他人进行本许可证已经允许的行为。
 
-本博客大多数文章使用[CC-BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)协议(知识共享署名-非商业性使用-相同方式共享4.0国际许可协议)进行许可，少数使用[CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)协议进行许可。
+本博客大多数文章使用[CC-BY-NC 4.0 International](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)协议(知识共享署名-非商业性使用-相同方式共享4.0国际许可协议)进行许可，少数使用[CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/deed.zh)协议进行许可。
 
 > CC0 是 CC 协议以外的一种新的版权声明协议。采用该协议即代表作者宣布放弃该创作的一切版权，该创作进入共有领域。
 > 
@@ -40,7 +40,7 @@ CC是Creative Commons的简称，中国大陆译名为“知识共享”。CC协
 > 
 > 值得注意的一点是，中国大陆地区并不允许著作者放弃自己的版权，任何情况下引用版权作品的最低限度是注明作者。因此 CC0 并没有中国大陆的版本。采用这份协议更多意义上是一种声明，即宣布“任何人使用该创作，无论使用于何用途，我都不会追究”，而并不具有主动的法律效应。
 
-以上内容(从上一条分割线开始)被引用内容来自知乎，原文作者昵称为“漠伦”，原文采用[CC-BY](https://creativecommons.org/licenses/by/4.0/)协议进行授权，引用时未经过修改。([原文链接](https://zhuanlan.zhihu.com/p/20641764))
+以上内容(从上一条分割线开始)被引用内容来自知乎，原文作者昵称为“漠伦”，原文采用[CC-BY](https://creativecommons.org/licenses/by/4.0/deed.zh)协议进行授权，引用时未经过修改。([原文链接](https://zhuanlan.zhihu.com/p/20641764))
 
 ---
 
@@ -48,7 +48,7 @@ CC是Creative Commons的简称，中国大陆译名为“知识共享”。CC协
 
 ### 友情链接
 
-[部分中华人民共和国法律法规](https://law.xinxin2021.tk)(共76部) [个人介绍](https://www.xinxin2021.tk) [我爹的博客](https://blog.xilong.tk) [MacWinLin工作室官方博客](https://blog.macwinlin.ml)
+[个人介绍](https://www.xinxin2021.tk) [我爹的博客](https://blog.xilong.tk) [MacWinLin工作室官方博客](https://blog.macwinlin.ml)
 
 ## 致谢
 
@@ -64,6 +64,6 @@ CC是Creative Commons的简称，中国大陆译名为“知识共享”。CC协
 
 ---
 
-[![](https://licensebuttons.net/l/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
+[![](https://licensebuttons.net/l/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/deed.zh)
 
-此关于页使用[CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)协议进行许可。
+此关于页使用[CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/deed.zh)协议进行许可。

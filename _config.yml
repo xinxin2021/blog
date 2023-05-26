@@ -51,13 +51,14 @@ excerpt_separator: <!-- more -->
 
 # 你的社交网络链接，它们会作为图标出现在你的网站页脚中，可选填写
 footer-links: 
-  weibo: 7661070283
   email: xinxin@xinxin2021.tk
   facebook: #https://www.facebook.com/<>
   github: xinxin2021
   instagram: #https://instagram.com/<>
   twitter: xingtehx
   youtube: channal/UC7_GlcEULjU35OIa73inkkg
+  telegram: xingteh
+  weibo: 7661070283
   zhihu: xinxin-python
   bilibili: 687889425
   qq: 3585097686
