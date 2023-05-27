@@ -62,6 +62,8 @@ CC是Creative Commons的简称，中国大陆译名为“知识共享”。CC协
 
 感谢Markdown写作格式及[Git](https://git-scm.com)分布式版本控制系统。
 
+感谢[FontAwesome](https://fontawesome.com)和[iconfont](https://www.iconfont.cn)，你所见的左下角联系方式图标都来自于它们。
+
 ---
 
 [![](https://licensebuttons.net/l/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/deed.zh)
