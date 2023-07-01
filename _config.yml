@@ -107,7 +107,7 @@ giscus:
   repo: blog
   owner: xinxin2021
   repoID: R_kgDOGsTnkQ
-  mapping: title
+  mapping: pathname
   strict: 1
   reactions: 1
   emit-metadata: 0
