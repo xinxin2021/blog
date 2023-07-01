@@ -96,8 +96,8 @@ utteranc:
 giscus:
   # 禁用注释enable这行
   enable: true
-  # 这我的，可以用https://giscus.app
-  src: https://giscus.xinxin2021.tk
+  # 你要有自己的也可以填自己的
+  src: https://giscus.app
   # 语言
   lang: zh-CN
   # 主题
