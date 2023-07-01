@@ -1,0 +1,19 @@
+{% if site.giscus.enable == true %}
+<div class="comments">
+  <script src="{{ site.giscus.src }}/client.js"
+    data-repo="{{ site.giscus.owner }}/{{ site.giscus.repo }}"
+    data-repo-id="{{ site.giscus.repoID }}"
+    data-category="Announcements"
+    data-category-id="{{ site.giscus.categoryID }}"
+    data-mapping="{{ site.giscus.mapping }}"
+    data-strict="{{ site.giscus.strict }}"
+    data-reactions-enabled="{{ site.giscus.reactions }}"
+    data-emit-metadata="{{ site.giscus.emit-metadata }}"
+    data-input-position="{{ site.giscus.input-position }}"
+    data-theme="{{ site.giscus.theme }}"
+    data-lang="{{ site.giscus.lang }}"
+    crossorigin="anonymous"
+    async>
+  </script>
+</div>
+{% endif %}

@@ -81,8 +81,8 @@ disqus:
 
 # 输入Gitalk相关设定，即可添加评论区，具体请看教程
 gitalk:
-  clientID: 63d692e95c5b70ebc3f1
-  clientSecret: 0d57c5430d3ca66280e87f587a82221f8114f133
+  clientID: 
+  clientSecret: 
   repo: blog
   owner: xinxin2021
   proxy: https://blog-proxy.xinxin2021.tk/github/login/oauth/access_token
@@ -92,6 +92,27 @@ google_analytics: G-Z55V8MJGY8
 
 utteranc:
   repo: # Your github repo path, also see: https://utteranc.es
+
+giscus:
+  # 禁用注释enable这行
+  enable: true
+  # 这我的，可以用https://giscus.app
+  src: https://giscus.xinxin2021.tk
+  # 语言
+  lang: zh-CN
+  # 主题
+  theme: light
+  category: Announcements
+  categoryID: DIC_kwDOGsTnkc4CXmQw
+  repo: blog
+  owner: xinxin2021
+  repoID: R_kgDOGsTnkQ
+  mapping: title
+  strict: 1
+  reactions: 1
+  emit-metadata: 0
+  input-position: top
+  
 
 #
 # !! 以下所有设置都不需要更改 !!
