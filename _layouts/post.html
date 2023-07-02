@@ -170,6 +170,7 @@ layout: default
       {% if site.default-comment %}
         {% if site.default-comment == disqus %}
           {% include disqus.html %}
+        {% endif %}
         {% if site.default-comment == utteranc %}
           {% include utteranc.html %}
         {% endif %}
@@ -196,7 +197,7 @@ layout: default
     </span>
   {% endif %}
   {% if page.next.url %}
-    <span class="next" >
+  <span class="next" >
       <a href="{{ site.url }}{{ site.baseurl }}{{ page.next.url }}">
         下一篇 →
       </a>
