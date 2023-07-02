@@ -76,13 +76,16 @@ footer-text: 本站已支持IPv6访问
 # 评论，注意，请不要同时添加多种不同的评论区
 #
 
+# 默认使用的评论区，每篇文章可单独配置
+default-comment: giscus
+
 # 输入Disqus shortname，即可添加评论区，请查阅文档，设置自己的disqus站点，不要继续使用我的站点loffer
 disqus: 
 
 # 输入Gitalk相关设定，即可添加评论区，具体请看教程
 gitalk:
-  clientID: 
-  clientSecret: 
+  clientID: 63d692e95c5b70ebc3f1
+  clientSecret: 0d57c5430d3ca66280e87f587a82221f8114f133
   repo: blog
   owner: xinxin2021
   proxy: https://blog-proxy.xinxin2021.tk/github/login/oauth/access_token

@@ -5,6 +5,7 @@ date: 2022-10-15
 tags: [Others]
 author: 鑫鑫
 comments: true
+comments-engine: gitalk
 license: CC-BY-NC 4.0 Intl
 ---
 
@@ -52,6 +53,12 @@ gitalk:
 ### 第三步 等待
 
 随后等待Vercel自动部署和颁发证书即可。
+
+---
+
+本博客现已采用[giscus](https://giscus.app)方案（详见[此文章](/update-log-2)），[Gitalk](https://gitalk.github.io)现作为备用方案。
+
+为了实现效果展示，我勉为其难开发个指定评论区的新功能叭
 
 ---
 
