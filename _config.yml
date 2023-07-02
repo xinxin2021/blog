@@ -77,7 +77,7 @@ footer-text: 本站已支持IPv6访问
 #
 
 # 默认使用的评论区，每篇文章可单独配置
-default-comment: giscus
+default-comment: twikoo
 
 # 输入Disqus shortname，即可添加评论区，请查阅文档，设置自己的disqus站点，不要继续使用我的站点loffer
 disqus: 
@@ -115,6 +115,9 @@ giscus:
   reactions: 1
   emit-metadata: 0
   input-position: top
+
+twikoo:
+  envID: https://twikoo.xinxin2021.tk
   
 
 #

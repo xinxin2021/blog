@@ -150,10 +150,40 @@ layout: default
   </div>
 
   {% if page.comments %}
-    {% include disqus.html %}
-    {% include utteranc.html %}
-    {% include gitalk.html %}
-    {% include giscus.html %}
+    {% if page.comments-engine %}
+      {% if page.comments-engine == disqus %}
+        {% include disqus.html %}
+      {% endif %}
+      {% if page.comments-engine == utteranc %}
+        {% include utteranc.html %}
+      {% endif %}
+      {% if page.comments-engine == gitalk %}
+        {% include gitalk.html %}
+      {% endif %}
+      {% if page.comments-engine == giscus %}
+        {% include giscus.html %}
+      {% endif %}
+      {% if page.comments-engine == twikoo %}
+        {% include twikoo.html %}
+      {% endif %}
+    {% else %}
+      {% if site.default-comment %}
+        {% if site.default-comment == disqus %}
+          {% include disqus.html %}
+        {% if site.default-comment == utteranc %}
+          {% include utteranc.html %}
+        {% endif %}
+        {% if site.default-comment == gitalk %}
+          {% include gitalk.html %}
+        {% endif %}
+        {% if site.default-comment == giscus %}
+          {% include giscus.html %}
+        {% endif %}
+        {% if site.default-comment == twikoo %}
+          {% include twikoo.html %}
+        {% endif %}
+      {% endif %}
+    {% endif %}
   {% endif %}
 </article>
 
