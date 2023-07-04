@@ -62,6 +62,10 @@ gitalk:
 
 ---
 
+现在又变成[Twikoo](https://twikoo.js.org)方案了，giscus上岗一天就卒了。
+
+---
+
 [![](https://licensebuttons.net/l/by-nc/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)
 
 本文章及其引用的图片采用[CC-BY-NC 4.0国际](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)许可协议进行许可(不包括引用的知识共享许可证徽章)。
