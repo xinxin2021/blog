@@ -11,7 +11,7 @@ name: 鑫博客
 description: 团结是需要付出代价的
 
 # 输入你的网站域名（如果你没有添加自己的域名，而是直接用GitHub pages分配的域名的话可以省略）
-url: https://blog.xinxin2021.tk
+url: //blog.xinxin2021.tk
 
 # 添加你的博客的二级域名，一般来说是你的repository名
 # 如果你的博客的URL是：(http://yourusername.github.io/repository-name)
@@ -24,10 +24,10 @@ baseurl: /
 #
 
 # 你的博客logo图片URL，建议尺寸不超过300px × 300px
-avatar: https://s1.imagehub.cc/images/2022/12/21/20c185c419a87ce16d7161a94887440d.png
+avatar: //s1.imagehub.cc/images/2022/12/21/20c185c419a87ce16d7161a94887440d.png
 
 # 你的favicon（出现在浏览器tab上）图片URL，建议使用较小(64px × 64px)的图片
-favicon: https://www.xinxin2021.tk/blog-favicon.ico
+favicon: //www.xinxin2021.tk/blog-favicon.ico
 
 
 # 菜单中的按钮
@@ -41,7 +41,7 @@ navigation:
   - name: 标签
     url: /tags
   - name: 反馈
-    url: https://support.qq.com/product/378946
+    url: //support.qq.com/product/378946
 
 # 每页的文章数
 paginate: 8
@@ -88,7 +88,7 @@ gitalk:
   clientSecret: 0d57c5430d3ca66280e87f587a82221f8114f133
   repo: blog
   owner: xinxin2021
-  proxy: https://blog-proxy.xinxin2021.tk/github/login/oauth/access_token
+  proxy: //blog-proxy.xinxin2021.tk/github/login/oauth/access_token
 
 # 输入Google Analytics web tracking code
 google_analytics: G-Z55V8MJGY8
@@ -100,7 +100,7 @@ giscus:
   # 禁用注释enable这行
   enable: true
   # 你要有自己的也可以填自己的
-  src: https://giscus.app
+  src: //giscus.app
   # 语言
   lang: zh-CN
   # 主题
@@ -117,7 +117,7 @@ giscus:
   input-position: top
 
 twikoo:
-  envID: https://twikoo.xinxin2021.tk
+  envID: //twikoo.xinxin2021.tk
   
 
 #
