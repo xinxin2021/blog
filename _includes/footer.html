@@ -23,7 +23,7 @@
   <br>
   {% endif %}
   {% if site.ipv6.enable and site.ipv6.icon != 2 %}
-    <a href="//ipw.cn/ipv6webcheck/?site={{ domain[-1] }}" title="本站支持IPv6访问" target="_blank"><img style="display:inline-block;vertical-align:middle" alt="本站支持IPv6访问" src="//static.ipw.cn/icon/ipv6{% if site.ipv6.icon == 1}-certified{% endif %}{% if site.ipv6.icon == 1 and site.ipv6.border == 0}-{% endif %}{% if site.ipv6.border == 0}lite{% endif %}-s{{ site.ipv6.color }}.svg"></a>
+    <a href="//ipw.cn/ipv6webcheck/?site={{ domain[-1] }}" title="本站支持IPv6访问" target="_blank"><img style="display:inline-block;vertical-align:middle" alt="本站支持IPv6访问" src="//static.ipw.cn/icon/ipv6{% if site.ipv6.icon == 1 %}-certified{% endif %}{% if site.ipv6.icon == 1 and site.ipv6.border == 0 %}-{% endif %}{% if site.ipv6.border == 0 %}lite{% endif %}-s{{ site.ipv6.color }}.svg"></a>
   {% else %}
     <a href="//ipw.cn/ipv6webcheck/?site={{ domain[-1] }}" title="本站支持IPv6访问" target="_blank">{{ site.ipv6.text }}</a>
   {% endif %}
