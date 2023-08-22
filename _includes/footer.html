@@ -1,5 +1,41 @@
 {% include svg-icons.html %}
 
 {% if site.footer-text %}
-<p>{{ site.footer-text }}</p>
+<p>
+  {{ site.footer-text }}
+  {% if site.icp-record.enable or site.public-security-record.enable %}
+  <br>
+  {% endif %}
+  {% if site.icp-record.enable %}
+  <a href="//beian.miit.gov.cn" target="_blank" rel="nofollow" title="ICP备案号">{{ site.icp-record.region }}ICP备{{ site.icp-record.number }}号</a>
+  {% endif %}
+  {% if site.icp-record.enable and site.public-security-record.enable %}
+  |
+  {% endif %}
+  {% if site.public-security-record.enable %}
+  <a href="//www.beian.gov.cn/portal/registerSystemInfo?recordcode={{ site.public-security-record.number }}">
+    <img style="display:inline-block;vertical-align:middle;width:20px;height:20px;margin-top:10px;" alt="联网备案号" src="{{ site.baseurl }}/gongan.png" width="20" height="20">
+    {{ site.public-security-record.region }}公安网备{{ site.public-security-record.number }}号
+  </a>
+  {% endif %}
+  {% if site.ipv6.enable or site.ssl.enable %}
+  {% assign domain = site.baseurl | split: "/" -%}
+  <br>
+  {% endif %}
+  {% if site.ipv6.enable and site.ipv6.icon != 2 %}
+    <a href="//ipw.cn/ipv6webcheck/?site={{ domain[-1] }}" title="本站支持IPv6访问" target="_blank"><img style="display:inline-block;vertical-align:middle" alt="本站支持IPv6访问" src="//static.ipw.cn/icon/ipv6{% if site.ipv6.icon == 1}-certified{% endif %}{% if site.ipv6.icon == 1 and site.ipv6.border == 0}-{% endif %}{% if site.ipv6.border == 0}lite{% endif %}-s{{ site.ipv6.color }}.svg"></a>
+  {% else %}
+    <a href="//ipw.cn/ipv6webcheck/?site={{ domain[-1] }}" title="本站支持IPv6访问" target="_blank">{{ site.ipv6.text }}</a>
+  {% endif %}
+  {% if site.icp-record.enable and site.public-security-record.enable %}
+    {% if site.icp-record.icon == 2 or site.public-security-record.icon == 1 %}
+      |
+    {% endif %}
+  {% endif %}
+  {% if site.ssl.enable and site.ssl.icon == 0 %}
+    <a href="//ipw.cn/ssl/?site={{ domain[-1] }}" title="本站支持SSL安全访问" target='_blank'><img style='display:inline-block;vertical-align:middle' alt="本站支持SSL安全访问" src="//static.ipw.cn/icon/ssl-s{{ site.ssl.color }}.svg"></a>
+  {% else %}
+    <a href="//ipw.cn/ssl/?site={{ domain[-1] }}" title="本站支持SSL安全访问" target='_blank'>{{ site.ssl.text }}</a>
+  {% endif %}
+  </p>
 {% endif %}

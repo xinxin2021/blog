@@ -49,6 +49,48 @@ paginate: 8
 # 文章简介的区分标记
 excerpt_separator: <!-- more -->
 
+# 网站是否支持IPv6，不支持/不想展示把enable注释掉
+ipv6:
+  enable: true
+  # 0为图标本站已支持IPv6访问 1为图标IPv6 2为自定义文字
+  icon: 0
+  # 图标是否有边框 0关1开
+  # !! 此选项不能在icon为1时开启 !!
+  border: 1
+  # 自定义文字
+  # !! 此选项仅能在icon为2时开启 !!
+  text: 本站支持IPv6访问
+  # 颜色：1深绿 2浅绿 3深蓝 4浅蓝 5黑 6灰 下面ssl.color同理
+  color: 1
+
+# 网站是否支持SSL，不支持/不想展示把enable注释掉
+ssl:
+  enable: true
+  # 0为图标 1为文字
+  icon: 0
+  # 自定义文字
+  # !! 此选项仅能在icon为2时开启 !!
+  text: SSL已开启
+  color: 1
+
+# ICP备案
+icp-record:
+  # 不启用把enable注释掉
+  #enable: true
+  # <京>ICP备XXXXXXXX号
+  region: 京
+  # 京ICP备<XXXXXXXX>号
+  number: XXXXXXXX
+
+# 公安联网备案
+public-security-record:
+  # 不启用把enable注释掉
+  #enable: true
+  # <京>公安网备XXXXXXXXXXXXXX号
+  region: 京
+  # 京公安网备<XXXXXXXXXXXXXX>号
+  number: XXXXXXXXXXXXXX
+
 # 你的社交网络链接，它们会作为图标出现在你的网站页脚中，可选填写
 footer-links: 
   email: xinxin@xinxin2021.tk
@@ -70,7 +112,7 @@ footer-links:
   douyin: MS4wLjABAAAA7Hk3D3pmg5jTQdFPqtJtSTkhyMsKZ0NbU0LHPVlA_0Q
 
 # 站点页脚的文字
-footer-text: 本站已支持IPv6访问
+footer-text: Copyright &copy; 2023 Xinxin
 
 #
 # 评论，注意，请不要同时添加多种不同的评论区
