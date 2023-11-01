@@ -2,8 +2,8 @@
 layout: post
 title: 规则类怪谈之二级学院
 date: 2023-01-02
-tags: [规则类怪谈]
-author: 鑫鑫
+tags: [恐怖]
+author: 转载
 comments: true
 toc: true
 warn: [惊悚内容]

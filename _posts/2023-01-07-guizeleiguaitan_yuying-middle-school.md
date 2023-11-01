@@ -2,8 +2,8 @@
 layout: post
 title: 规则类怪谈之育英中学
 date: 2023-01-07
-tags: [规则类怪谈]
-author: 鑫鑫
+tags: [恐怖]
+author: 转载
 comments: true
 toc: true
 warn: [惊悚内容]

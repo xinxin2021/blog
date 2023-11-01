@@ -2,8 +2,8 @@
 layout: post
 title: 规则类怪谈之不要看月亮
 date: 2023-01-03
-tags: [规则类怪谈]
-author: 鑫鑫
+tags: [恐怖]
+author: 百度贴吧
 comments: true
 toc: true
 warn: [惊悚内容]
