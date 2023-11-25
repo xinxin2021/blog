@@ -140,7 +140,7 @@ google_analytics: G-Z55V8MJGY8
 #
 
 # 默认使用的评论区，每篇文章可单独配置
-default-comment: waline
+default-comment: twikoo
 
 # 输入Disqus shortname，即可添加评论区，请查阅文档，设置自己的disqus站点，不要继续使用我的站点loffer
 # disqus.com
