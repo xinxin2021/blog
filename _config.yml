@@ -87,7 +87,7 @@ ssl:
   # icon为图标 text为文字
   icon: icon
   # 自定义文字
-  # !! 此选项仅能在icon为2时开启 !!
+  # !! 此选项仅能在icon为text时开启 !!
   text: SSL已开启
   color: 1
 
@@ -117,7 +117,7 @@ footer-links:
   gitlab: xinxin2021
   instagram: #https://instagram.com/<>
   twitter: xingtehx
-  youtube: channel/UC7_GlcEULjU35OIa73inkkg
+  youtube: "@xinxinx"
   telegram: xingteh
   weibo: 7661070283
   zhihu: xinxin-python
@@ -130,7 +130,7 @@ footer-links:
   douyin: MS4wLjABAAAA7Hk3D3pmg5jTQdFPqtJtSTkhyMsKZ0NbU0LHPVlA_0Q
 
 # 站点页脚的文字
-footer-text: Copyright &copy; 2023 Xinxin
+footer-text: Copyright &copy; 2024 Xinxin
 
 # 输入Google Analytics web tracking code
 google_analytics: G-Z55V8MJGY8
@@ -182,7 +182,7 @@ beaudar:
 valine:
   appID: Kn8HIWWLzAMNMSWzHxGRLlEX-MdYXbMMI
   appKey: CzXkIdK2nKxYUXhgWS3ggGd3
-  placeholder: 可自动获取QQ昵称与头像。当您发表评论后，将由no-reply@gteh.eu.org邮件通知您，务必保证您的邮箱填写正确。
+  placeholder: "可自动获取 QQ 昵称与头像。当您发表评论后，将由 bot@xinxin2021.tk 邮件通知您，务必保证您的邮箱填写正确。"
   lang:
     name: zh-CN
     custom:
@@ -218,7 +218,7 @@ twikoo:
   # 环境地域，默认为 ap-shanghai，腾讯云环境填 ap-shanghai 或 ap-guangzhou；Vercel 环境注释
   #region: ap-guangzhou
   # Twikoo 版本
-  version: 1.6.22
+  version: 1.6.29
 
 #
 # !! 以下所有设置都不需要更改 !!
