@@ -43,6 +43,8 @@ navigation:
     url: /archive/
   - name: 标签
     url: /tags/
+  - name: 分类
+    url: /categories/
   # 记得把这里改了，别跳转到我的反馈
   - name: 反馈
     url: //support.qq.com/product/
@@ -70,6 +72,8 @@ mermaid: false
 # 网站是否支持IPv6，不支持/不想展示把enable注释掉
 ipv6:
   enable: true
+  # 链接
+  link: https://blog.xinxin2021.tk
   # icon1为图标本站已支持IPv6访问 icon2为图标IPv6 text为自定义文字
   icon: icon1
   # 图标是否有边框 false关true开
@@ -84,6 +88,8 @@ ipv6:
 # 网站是否支持SSL，不支持/不想展示把enable注释掉
 ssl:
   enable: true
+  # 链接
+  link: https://blog.xinxin2021.tk
   # icon为图标 text为文字
   icon: icon
   # 自定义文字

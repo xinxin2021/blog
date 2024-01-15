@@ -628,7 +628,7 @@ nav {
 }
 
 // Tags
-.tags > .label {
+.tags > .label, .categories > .label {
   > li:before {
     content: "";
   }
@@ -664,7 +664,7 @@ nav {
   }
 }
 
-.tags > .tag {
+.tags > .tag, .categories > .category {
   a {
     color: $base-color;
   }
