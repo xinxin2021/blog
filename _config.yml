@@ -38,11 +38,11 @@ navigation:
   - name: 首页
     url: /
   - name: 关于
-    url: /about
+    url: /about/
   - name: 归档
-    url: /archive
+    url: /archive/
   - name: 标签
-    url: /tags
+    url: /tags/
   # 记得把这里改了，别跳转到我的反馈
   - name: 反馈
     url: //support.qq.com/product/
@@ -130,7 +130,7 @@ footer-links:
   douyin: MS4wLjABAAAA7Hk3D3pmg5jTQdFPqtJtSTkhyMsKZ0NbU0LHPVlA_0Q
 
 # 站点页脚的文字
-footer-text: Copyright &copy; 2024 Xinxin
+footer-text: Copyright &copy; 2023-2024 Xinxin
 
 # 输入Google Analytics web tracking code
 google_analytics: G-Z55V8MJGY8
@@ -218,7 +218,7 @@ twikoo:
   # 环境地域，默认为 ap-shanghai，腾讯云环境填 ap-shanghai 或 ap-guangzhou；Vercel 环境注释
   #region: ap-guangzhou
   # Twikoo 版本
-  version: 1.6.29
+  version: 1.6.30
 
 #
 # !! 以下所有设置都不需要更改 !!
