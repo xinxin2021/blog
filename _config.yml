@@ -77,11 +77,11 @@ ipv6:
   # icon1为图标本站已支持IPv6访问 icon2为图标IPv6 text为自定义文字
   icon: icon1
   # 图标是否有边框 false关true开
-  # !! 此选项不能在icon不为text时开启 !!
+  # !! 此选项只能在icon为icon2时关闭 !!
   border: false
   # 自定义文字
   # !! 此选项仅能在icon为2时开启 !!
-  text: 本站支持IPv6访问
+  #text: 本站支持IPv6访问
   # 颜色：1深绿 2浅绿 3深蓝 4浅蓝 5黑 6灰 下面ssl.color同理
   color: 1
 
@@ -94,7 +94,7 @@ ssl:
   icon: icon
   # 自定义文字
   # !! 此选项仅能在icon为text时开启 !!
-  text: SSL已开启
+  #text: SSL已开启
   color: 1
 
 # ICP备案
