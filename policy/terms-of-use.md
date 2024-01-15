@@ -167,11 +167,3 @@ permalink: /policy/term-of-use/
 每部分的栏目只为阅读之便而无任何法律或合同义务；
 
 除非我们书面同意，您不得转让本协议所规定的权利义务。任何违反上述规定企图转让的行为均无效。在法律许可的范围内，我们对本协议享有最终解释权。
-
----
-
-[![](//licensebuttons.net/l/zero/1.0/88x31.png)](//creativecommons.org/publicdomain/zero/1.0/deed.zh)
-
-本协议采用 [CC0 1.0 通用](//creativecommons.org/publicdomain/zero/1.0/deed.zh) 许可协议进行许可。
-
-[联系我们](mailto:blog@xinxin2021.tk) · [侵权联系](mailto:tort@xinxin2021.tk) —— 分享 · [QZone](//sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https%3A%2F%2Fblog.xinxin2021.tk%2Fpolicy%2Fterms-of-use%2F&title=%E7%94%A8%E6%88%B7%E8%AE%B8%E5%8F%AF%E4%BD%BF%E7%94%A8%E5%8D%8F%E8%AE%AE&site=%E9%91%AB%E5%8D%9A%E5%AE%A2) · [Weibo](//service.weibo.com/share/share.php?url=https%3A%2F%2Fblog.xinxin2021.tk%2Fpolicy%2Fterms-of-use%2F&count=1&title=%E7%94%A8%E6%88%B7%E8%AE%B8%E5%8F%AF%E4%BD%BF%E7%94%A8%E5%8D%8F%E8%AE%AE&language=zh_cn)
