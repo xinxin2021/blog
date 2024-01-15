@@ -75,7 +75,7 @@ ipv6:
   # 链接
   link: https://blog.xinxin2021.tk
   # icon1为图标本站已支持IPv6访问 icon2为图标IPv6 text为自定义文字
-  icon: icon1
+  icon: icon2
   # 图标是否有边框 false关true开
   # !! 此选项只能在icon为icon2时关闭 !!
   border: false
