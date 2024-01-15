@@ -78,7 +78,7 @@ ipv6:
   icon: icon2
   # 图标是否有边框 false关true开
   # !! 此选项只能在icon为icon2时关闭 !!
-  border: false
+  border: true
   # 自定义文字
   # !! 此选项仅能在icon为2时开启 !!
   #text: 本站支持IPv6访问
