@@ -2,7 +2,9 @@
 layout: post
 title: 规则类怪谈之动物园
 date: 2023-01-02
-tags: [恐怖]
+update: 2023-01-02
+categories: [恐怖]
+tags: [规则类怪谈, 恐怖, 惊悚]
 author: 转载
 comments: true
 toc: true

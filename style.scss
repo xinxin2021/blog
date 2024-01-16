@@ -442,7 +442,7 @@ nav {
 
 .posts{
 
-  .tag {
+  .tag, .category {
     display: inline;
     font-weight: 300;
     font-size: $small-font-size;
@@ -489,7 +489,7 @@ nav {
 }
 
 
-.date {
+.date, .text-tags {
   font-weight: 300;
   font-size: $small-font-size;
   color: $base-lighten-color;

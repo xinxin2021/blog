@@ -2,7 +2,9 @@
 layout: post
 title: 《中国人民站起来了》
 date: 1949-09-21
-tags: [Others]
+update: 1949-09-21
+categories: [Others]
+tags: [毛泽东]
 author: 毛泽东
 ---
 

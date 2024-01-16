@@ -4,9 +4,73 @@ layout: default
 
 <article class="page">
 
+  {% if page.views==true %}
+  <script id="dsq-count-scr" src="//{{ site.disqus }}.disqus.com/count.js" async></script>
+  {% elsif site.views==true %}
+    {% if page.views!=false %}
+    <script id="dsq-count-scr" src="//{{ site.disqus }}.disqus.com/count.js" async></script>
+    {% endif %}
+  {% endif %}
+
   <h1>{{ page.title }}</h1>
 
   <div class="entry">
     {{ content }}
   </div>
+
+  {% if page.comments %}
+    {% if page.comments-engine %}
+      {% if page.comments-engine == disqus %}
+        {% include disqus.html %}
+      {% endif %}
+      {% if page.comments-engine == utterances %}
+        {% include utterancess.html %}
+      {% endif %}
+      {% if page.comments-engine == gitalk %}
+        {% include gitalk.html %}
+      {% endif %}
+      {% if page.comments-engine == giscus %}
+        {% include giscus.html %}
+      {% endif %}
+      {% if page.comments-engine == twikoo %}
+        {% include twikoo.html %}
+      {% endif %}
+      {% if page.comments-engine == waline %}
+        {% include waline.html %}
+      {% endif %}
+      {% if page.comments-engine == valine %}
+        {% include valine.html %}
+      {% endif %}
+      {% if page.comments-engine == beaudar %}
+        {% include beaudar.html %}
+      {% endif %}
+    {% else %}
+      {% if site.default-comment %}
+        {% if site.default-comment == disqus %}
+          {% include disqus.html %}
+        {% endif %}
+        {% if site.default-comment == utterances %}
+          {% include utterances.html %}
+        {% endif %}
+        {% if site.default-comment == gitalk %}
+          {% include gitalk.html %}
+        {% endif %}
+        {% if site.default-comment == giscus %}
+          {% include giscus.html %}
+        {% endif %}
+        {% if site.default-comment == twikoo %}
+          {% include twikoo.html %}
+        {% endif %}
+        {% if site.default-comment == waline %}
+          {% include waline.html %}
+        {% endif %}
+        {% if site.default-comment == valine %}
+          {% include valine.html %}
+        {% endif %}
+        {% if site.default-comment == beaudar %}
+          {% include beaudar.html %}
+        {% endif %}
+      {% endif %}
+    {% endif %}
+  {% endif %}
 </article>

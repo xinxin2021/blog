@@ -69,14 +69,16 @@ layout: default
     </span>
 
     <span class="date">
-      {{ page.date | date: "%Y-%m-%d" }}
+      /
+      发布于 {{ page.date | date: "%Y-%m-%d" }} /
+      更新于 {{ page.update | date: "%Y-%m-%d" }}
     </span>
 
-    <ul class="tag">
-      {% for tag in page.tags %}
+    <ul class="category">
+      {% for category in page.categories %}
       <li>
-        <a href="{{ site.url }}{{ site.baseurl }}/tags#{{ tag }}">
-          {{ tag }}
+        <a href="{{ site.url }}{{ site.baseurl }}/categories#{{ category }}">
+          {{ category }}
         </a>
       </li>
       {% endfor %}
@@ -149,43 +151,18 @@ layout: default
     {{ content }}
   </div>
 
-  {% if page.comments %}
-    {% if page.comments-engine %}
-      {% if page.comments-engine == 'disqus' %}
-        {% include disqus.html %}
-      {% endif %}
-      {% if page.comments-engine == 'utteranc' %}
-        {% include utteranc.html %}
-      {% endif %}
-      {% if page.comments-engine == 'gitalk' %}
-        {% include gitalk.html %}
-      {% endif %}
-      {% if page.comments-engine == 'giscus' %}
-        {% include giscus.html %}
-      {% endif %}
-      {% if page.comments-engine == 'twikoo' %}
-        {% include twikoo.html %}
-      {% endif %}
-    {% else %}
-      {% if site.default-comment %}
-        {% if site.default-comment == 'disqus' %}
-          {% include disqus.html %}
-        {% endif %}
-        {% if site.default-comment == 'utteranc' %}
-          {% include utteranc.html %}
-        {% endif %}
-        {% if site.default-comment == 'gitalk' %}
-          {% include gitalk.html %}
-        {% endif %}
-        {% if site.default-comment == 'giscus' %}
-          {% include giscus.html %}
-        {% endif %}
-        {% if site.default-comment == 'twikoo' %}
-          {% include twikoo.html %}
-        {% endif %}
-      {% endif %}
-    {% endif %}
-  {% endif %}
+  <div class="meta">
+    <span class="text-tags">Tags: </span>
+    <ul class="tag">
+      {% for tag in page.tags %}
+      <li>
+        <a href="{{ site.url }}{{ site.baseurl }}/tags#{{ tag }}">
+          {{ tag }}
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
 </article>
 
 <div class="pagination">

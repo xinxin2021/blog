@@ -2,7 +2,9 @@
 layout: post
 title: 《中华人民共和国宪法（2018修正文本）》序言部分
 date: 2018-03-11
-tags: [Others]
+update: 2018-03-11
+categories: [Others]
+tags: [中国, 宪法]
 author: 中华人民共和国宪法
 ---
 

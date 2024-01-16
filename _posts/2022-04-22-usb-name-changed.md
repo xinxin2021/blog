@@ -1,15 +1,17 @@
 ---
 layout: post
-title: USB命名变化史
+title: USB 命名变化史
 date: 2022-04-22
-tags: [Others]
+update: 2022-04-22
+categories: [Others]
+tags: [USB, 变化, 命名]
 author: 鑫鑫
 comments: true
 ---
 
-本视频改自[av297444296](https://www.bilibili.com/video/BV1tF411x7Wk)，如有侵权请联系[侵权联系邮箱](mailto:tort@xinxin2021.tk)
+本视频改自 [av297444296](https://www.bilibili.com/video/BV1tF411x7Wk)，如有侵权请联系 [侵权联系邮箱](mailto:tort@xinxin2021.tk)
 
-## USB-IF改名历史
+## USB-IF 改名历史
 
 开始之前，让我们再回顾一下USB接口命名被USB-IF组织玩崩的历史。
 

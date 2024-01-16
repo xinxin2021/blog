@@ -2,7 +2,9 @@
 layout: post
 title: 规则类怪谈之不要看月亮
 date: 2023-01-03
-tags: [恐怖]
+update: 2023-01-03
+categories: [恐怖]
+tags: [规则类怪谈, 恐怖, 惊悚]
 author: 百度贴吧
 comments: true
 toc: true

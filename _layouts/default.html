@@ -1,32 +1,6 @@
 <!DOCTYPE html>
 <html>
   {% include head.html %}
-  {% if page.math==true %}
-    <script>
-      window.MathJax = {
-        options: {
-          skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
-          ignoreHtmlClass: 'tex2jax_ignore',
-          processHtmlClass: 'tex2jax_process'
-        },
-        tex: {
-          inlineMath: [['$','$']],
-          autoload: {
-            color: [],
-            colorv2: ['color']
-          },
-          packages: {'[+]': ['noerrors']}
-        },
-        loader: {
-          load: ['[tex]/noerrors']
-        }
-      };
-    </script>
-    <script src="//cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" id="MathJax-script"></script>
-  {% endif %}
-  {% if page.mermaid==true %}
-    <script src="//cdn.bootcss.com/mermaid/8.0.0-rc.8/mermaid.min.js"></script>
-  {% endif %}
   <body style="overflow-x: hidden;">
     {% include nav.html %}
 

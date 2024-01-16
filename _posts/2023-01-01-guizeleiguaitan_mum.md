@@ -2,7 +2,9 @@
 layout: post
 title: 规则类怪谈之妈妈留的纸条
 date: 2023-01-01
-tags: [恐怖]
+update: 2023-01-01
+categories: [恐怖]
+tags: [规则类怪谈, 恐怖, 惊悚]
 author: 转载
 comments: true
 toc: true

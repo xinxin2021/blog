@@ -12,6 +12,82 @@
   <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
   <link rel="shortcut icon" href="{{ site.favicon }}">
   <script src="//unpkg.com/feather-icons"></script>
+  {% if page.comments %}
+    {% if page.comments-engine==disqusjs %}
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/disqusjs@3.0/dist/browser/styles/disqusjs.css">
+    {% endif %}
+    {% if !page.comments-engine %}
+    {% if site.default-comment==disqusjs %}
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/disqusjs@3.0/dist/browser/styles/disqusjs.css">
+    {% endif %}
+    {% endif %}
+    {% if page.comments-engine==waline %}
+      <link
+        rel="stylesheet"
+        href="https://unpkg.com/@waline/client@v2/dist/waline.css"
+      />
+    {% endif %}
+    {% if !page.comments-engine and site.default-comment==waline %}
+      <link
+        rel="stylesheet"
+        href="https://unpkg.com/@waline/client@v2/dist/waline.css"
+      />
+    {% endif %}
+    {% if page.comments-engine==valine %}
+      <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+    {% endif %}
+    {% if !page.comments-engine and site.default-comment==valine %}
+      <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+    {% endif %}
+  {% endif %}
+  {% if page.math==true or site.math==true and page.math!=false %}
+    <script>
+      window.MathJax = {
+        options: {
+          skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+          ignoreHtmlClass: 'tex2jax_ignore',
+          processHtmlClass: 'tex2jax_process'
+        },
+        tex: {
+          inlineMath: [['$','$']],
+          autoload: {
+            color: [],
+            colorv2: ['color']
+          },
+          packages: {'[+]': ['noerrors']}
+        },
+        loader: {
+          load: ['[tex]/noerrors']
+        }
+      };
+    </script>
+    <script src="//cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" id="MathJax-script"></script>
+  {% elsif page.comments==true and page.comments-engine==waline or not page.comments-engine and site.default-comment==waline %}
+    <script>
+      window.MathJax = {
+        options: {
+          skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+          ignoreHtmlClass: 'tex2jax_ignore',
+          processHtmlClass: 'tex2jax_process'
+        },
+        tex: {
+          inlineMath: [['$','$']],
+          autoload: {
+            color: [],
+            colorv2: ['color']
+          },
+          packages: {'[+]': ['noerrors']}
+        },
+        loader: {
+          load: ['[tex]/noerrors']
+        }
+      };
+    </script>
+    <script src="//cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" id="MathJax-script"></script>
+  {% endif %}
+  {% if page.mermaid==true or site.mermaid==true and page.mermaid!=false %}
+    <script src="//cdn.bootcss.com/mermaid/8.0.0-rc.8/mermaid.min.js"></script>
+  {% endif %}
 
   <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
 

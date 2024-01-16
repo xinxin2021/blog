@@ -2,7 +2,9 @@
 layout: post
 title: 关于Gitalk评论区的修复
 date: 2022-10-15
-tags: [Others]
+update: 2022-10-15
+categories: [Others]
+tags: [日志, 修复]
 author: 鑫鑫
 comments: true
 comments-engine: gitalk

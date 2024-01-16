@@ -25,7 +25,7 @@ baseurl:
 
 # 网页变灰，哀悼用
 # 0关1开2永开
-gray: 1
+gray: 0
 
 # 你的博客logo图片URL，建议尺寸不超过300px × 300px
 avatar: //s1.imagehub.cc/images/2022/12/21/20c185c419a87ce16d7161a94887440d.png
@@ -45,9 +45,25 @@ navigation:
     url: /tags/
   - name: 分类
     url: /categories/
+  - name: 友链
+    url: /friends/
   # 记得把这里改了，别跳转到我的反馈
   - name: 反馈
     url: //support.qq.com/product/
+
+# 友链
+friends:
+  - name: 测试网站
+    link: www.example.com
+    url: //www.example.com
+    avatar: //www.xinxin2021.tk/images/contacts.png
+    descr: 测试网站
+  - name: 测试网站
+    link: www.example.com
+    url: //www.example.com
+    avatar: //www.xinxin2021.tk/images/contacts.png
+    descr: 测试网站
+    status: 1
     
 # 搜索框设置
 search:

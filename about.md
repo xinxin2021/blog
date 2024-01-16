@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+comments: true
 ---
 
 Hello，我是鑫鑫
@@ -48,11 +49,11 @@ CC 是 Creative Commons 的简称，中国大陆译名为“知识共享”。CC
 
 ### 友情链接
 
-[个人介绍](https://www.xinxin2021.tk) [我爹的博客](https://blog.xilong.tk) [MacWinLin 工作室官方博客](https://blog.macwinlin.ml)
+[个人介绍](//www.xinxin2021.tk) / [我爹的博客](//blog.xilong.tk) / [MacWinLin 工作室官方博客](//blog.macwinlin.ml)
 
 ## 致谢
 
-感谢 [开源博客LOFFER](https://fromendworld.github.io/LOFFER)，本博客由 LOFFER 改编而来。
+感谢 [开源博客 LOFFER](https://fromendworld.github.io/LOFFER/)，本博客由 LOFFER 改编而来。
 
 感谢 [Jekyll](//github.com/jekyll/jekyll)，本博客基于 Jekyll 搭建。
 
@@ -69,6 +70,8 @@ CC 是 Creative Commons 的简称，中国大陆译名为“知识共享”。CC
 感谢 [Gitalk](//gitalk.github.io)、[Giscus](//giscus.app)、[Disqus](//disqus.com)、[DisqusJS](//disqusjs.skk.moe)、[Utterances](//utteranc.es)、[Beaudar](//beaudar.lipk.org)、[Valine](//valine.js.org)、[Waline](//waline.js.org)、[Twikoo](//twikoo.js.org)提供的评论服务。
 
 感谢 [不蒜子](//busuanzi.ibruce.info) 和 [Google Analytics](//analytics.google.com) 提供的访客数据统计。
+
+感谢 [iMaeGoo](//www.imaegoo.com) 提供的友链样式。
 
 ### 隐私政策
 
@@ -97,3 +100,5 @@ CC 是 Creative Commons 的简称，中国大陆译名为“知识共享”。CC
 此关于页采用 [CC0 1.0通用](//creativecommons.org/publicdomain/zero/1.0/deed.zh) 协议进行许可(不包括引用的知识共享许可证徽章及其他引用内容)。
 
 [联系作者](mailto:blog@xinxin2021.tk) · [侵权联系](mailto:tort@xinxin2021.tk) —— [QZone](//sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https%3A%2F%2Fblog.xinxin2021.tk%2Fabout%2F&title=About&site=%E9%91%AB%E5%8D%9A%E5%AE%A2) · [Weibo](//service.weibo.com/share/share.php?url=https%3A%2F%2Fblog.xinxin2021.tk%2Fabout%2F&count=1&title=About&language=zh_cn)
+
+哦对了，这里现已成为留言板↓↓↓

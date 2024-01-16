@@ -2,7 +2,9 @@
 layout: post
 title: 《为人民服务》
 date: 1944-09-08
-tags: [Others]
+update: 1944-09-08
+categories: [Others]
+tags: [毛泽东]
 author: 毛泽东
 ---
 

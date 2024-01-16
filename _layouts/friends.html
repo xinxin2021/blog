@@ -1,0 +1,112 @@
+---
+layout: page
+---
+
+<style type="text/css">
+.friends {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: -6px;
+}
+.friends .friend {
+  margin: 6px;
+  min-width: 240px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  border: 1px solid rgba(200, 200, 200, 0.2);
+  background-color: rgba(200, 200, 200, 0.1);
+  position: relative;
+}
+.friends .friend.friend-empty {
+  border: none;
+  background: none;
+}
+.friends .friend .friend-avatar {
+  flex-shrink: 0;
+  margin: 8px;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 30px;
+  background-color: rgba(200, 200, 200, 0.2);
+  background-size: cover;
+  background-position: center;
+  font-size: 24px;
+  text-align: center;
+}
+.friends .friend .friend-detail {
+  flex: 1;
+  width: 0;
+  display: flex;
+  flex-direction: column;
+  margin: 8px 8px 8px 0;
+}
+.friends .friend .friend-pop {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+}
+.friends .friend .friend-pop div {
+  position: absolute;
+  width: 100%;
+  top: 8px;
+  left: 0;
+  padding: 8px;
+  color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  z-index: 10;
+  user-select: none;
+  pointer-events: none;
+  transition: opacity 0.5s;
+  opacity: 0;
+}
+.friends .friend:hover .friend-pop div {
+  opacity: 1;
+}
+.tag:not(body).is-warning {
+  background-color: #ffdd57;
+  color: rgba(0, 0, 0, .7);
+}
+.tag:not(body) {
+  align-items: center;
+  border-radius: 4px;
+  display: inline-flex;
+  font-size: .75rem;
+  height: 2em;
+  justify-items: center;
+  line-height: 1.5;
+  padding-left: .75em;
+  padding-right: .75em;
+  white-space: nowrap;
+}
+</style>
+
+<article class="page">
+  <div class="friends">
+    {% for friend in site.friends %}
+    <div class="friend">
+      <div class="friend-avatar" style="background-image: url('{{ friend.avatar }}')"></div>
+        <div class="friend-detail">
+          <div>{{ friend.name }}{% if friend.status == 1 %}&nbsp;<span class="tag is-warning">无法访问</span>{% endif %}</div>
+        <div>{% if friend.status == 1 %}{{ friend.link }}{% else %}<a target="_blank" href="{{ friend.url }}">{{ friend.link }}</a>{% endif %}</div>
+      </div>
+      {% if friend.descr %}<div class="friend-pop"><div>签名：{{ friend.descr }}{% if friend.status == 1 %}<br>备注：无法访问{% endif %}</div></div>{% endif %}
+    </div>
+    {% endfor %}
+  </div>
+
+  <div class="entry">
+    {{ content }}
+  </div>
+
+</article>
