@@ -1,0 +1,84 @@
+---
+layout: page
+title: 评论区测试
+permalink: /comments
+---
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/disqusjs@3.0/dist/browser/styles/disqusjs.css">
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/@waline/client@v2/dist/waline.css"
+/>
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+
+<div>
+  <h2>Disqus</h2>
+  {% if site.disqus %}
+  {% include disqus.html %}
+  {% else %}
+  未启用 Disqus
+  {% endif %}
+</div>
+
+<div>
+  <h2>Gitalk</h2>
+  {% if site.gitalk.clientID %}
+  {% include gitalk.html %}
+  {% else %}
+  未启用 Gitalk
+  {% endif %}
+</div>
+
+<div>
+  <h2>Utterances</h2>
+  {% if site.utterances.repo %}
+  {% include utterances.html %}
+  {% else %}
+  未启用 Utterances
+  {% endif %}
+</div>
+
+<div>
+  <h2>Beaudar</h2>
+  {% if site.beaudar.repo %}
+  {% include beaudar.html %}
+  {% else %}
+  未启用 Beaudar
+  {% endif %}
+</div>
+
+<div>
+  <h2>Valine</h2>
+  {% if site.valine.appID %}
+  {% include valine.html %}
+  {% else %}
+  未启用 Valine
+  {% endif %}
+</div>
+
+<div>
+  <h2>Waline</h2>
+  {% if site.waline.serverURL %}
+  {% include waline.html %}
+  {% else %}
+  未启用 Waline
+  {% endif %}
+</div>
+
+<div>
+  <h2>Giscus</h2>
+  {% if site.giscus.repo %}
+  {% include giscus.html %}
+  {% else %}
+  未启用 Giscus
+  {% endif %}
+</div>
+
+<div>
+  <h2>Twikoo</h2>
+  {% if site.twikoo.envID %}
+  {% include twikoo.html %}
+  {% else %}
+  未启用 Twikoo
+  {% endif %}
+</div>

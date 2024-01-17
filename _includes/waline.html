@@ -2,16 +2,16 @@
   {% if site.waline.serverURL %}
     <div id="waline"></div>
     <script type="module">
-      import { init } from "https://unpkg.com/@waline/client@v2/dist/waline.mjs";
+      import { init } from "https://unpkg.com/@waline/client@v2/dist/waline.js";
       init({
         el: "#waline",
         serverURL: "{{ site.waline.serverURL }}",
-        path: {% if page.comments-id %}'{{ page.comments-id }}'{% else %}window.location.pathname.replace('index.html'){% endif %},
-        lang: '{{ site.waline.lang.name | default: "zh-CN" }}',
-        commentSorting: '{{ site.waline.commentSorting | default: "latest" }}',
-        meta: [{{ site.waline.meta | default: "'nick', 'mail', 'link'" }}],
+        path: {% if page.comments-id %}"{{ page.comments-id }}"{% else %}window.location.pathname.replace("index.html"){% endif %},
+        lang: "{{ site.waline.lang.name | default: 'zh-CN' }}",
+        commentSorting: "{{ site.waline.commentSorting | default: 'latest' }}",
+        meta: [{{ site.waline.meta | default: '"nick", "mail", "link"' }}],
         requiredMeta: [{{ site.waline.requiredMeta }}],
-        login: '{{ site.waline.login | default: "enable" }}',
+        login: "{{ site.waline.login | default: 'enable' }}",
         wordLimit: {{ site.waline.wordLimit | default: '0' }},
         pageSize: {{ site.waline.pageSize | default: '10' }},
         copyright: {{ site.waline.copyright | default: 'true' }},
@@ -24,7 +24,7 @@
               display: blockMode,
             }),
           ),
-        {% if site.waline.lang.custom.enable==true %}locale: {
+        {% if site.waline.lang.custom.enable == true %}locale: {
           {% if site.waline.lang.custom.reactionTitle %}reactionTitle: '{{ site.waline.lang.custom.reactionTitle }}',{% endif %}
           {% if site.waline.lang.custom.reaction0 %}reaction0: '{{ site.waline.lang.custom.reaction0 }}',{% endif %}
           {% if site.waline.lang.custom.reaction1 %}reaction1: '{{ site.waline.lang.custom.reaction1 }}',{% endif %}

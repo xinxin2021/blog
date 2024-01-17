@@ -109,26 +109,19 @@ layout: default
     {% if page.comments-engine %}
       {% if page.comments-engine == "disqus" %}
         {% include disqus.html %}
-      {% endif %}
-      {% if page.comments-engine == "utterances" %}
+      {% elsif page.comments-engine == "utterances" %}
         {% include utterancess.html %}
-      {% endif %}
-      {% if page.comments-engine == "gitalk" %}
+      {% elsif page.comments-engine == "gitalk" %}
         {% include gitalk.html %}
-      {% endif %}
-      {% if page.comments-engine == "giscus" %}
+      {% elsif page.comments-engine == "giscus" %}
         {% include giscus.html %}
-      {% endif %}
-      {% if page.comments-engine == "twikoo" %}
+      {% elsif page.comments-engine == "twikoo" %}
         {% include twikoo.html %}
-      {% endif %}
-      {% if page.comments-engine == "waline" %}
+      {% elsif page.comments-engine == "waline" %}
         {% include waline.html %}
-      {% endif %}
-      {% if page.comments-engine == "valine" %}
+      {% elsif page.comments-engine == "valine" %}
         {% include valine.html %}
-      {% endif %}
-      {% if page.comments-engine == "beaudar" %}
+      {% elsif page.comments-engine == "beaudar" %}
         {% include beaudar.html %}
       {% endif %}
     {% else %}

@@ -162,20 +162,12 @@ google_analytics: G-Z55V8MJGY8
 #
 
 # 默认使用的评论区，每篇文章可单独配置
-default-comment: waline
+default-comment: twikoo
 
 # 输入Disqus shortname，即可添加评论区，请查阅文档，设置自己的disqus站点，不要继续使用我的站点loffer
 # disqus.com
 # 推荐程度：65% 国内访问不方便 否则90% 免费使用有广告
 disqus: xinblog
-
-# disqusjs.skk.moe
-# 推荐程度：90%
-disqusjs:
-  sitename: 鑫博客
-  api: //disqusjs.xinxin2021.tk
-  apiKey: 'NqeFHhVxyXDdHxovxCI5neFDTFS07OyQjgVrvYR42Bvm5dXnWKb78IGLOvV7Xfp0'
-  admin: xinxinx
 
 # 输入Gitalk相关设定，即可添加评论区，具体请看教程
 # gitalk.github.io
