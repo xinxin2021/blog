@@ -489,7 +489,7 @@ nav {
 }
 
 
-.date, .text-tags {
+.date, .text-tags, .license {
   font-weight: 300;
   font-size: $small-font-size;
   color: $base-lighten-color;
@@ -529,13 +529,6 @@ nav {
 
 .error-block-bg {
   background: #ffb5b5;
-}
-
-.license {
-  font-weight: 300;
-  font-size: 14px;
-  color: #868e96;
-  margin-right: 4px;
 }
 
 .warn-error-block {
