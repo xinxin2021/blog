@@ -1,0 +1,19 @@
+<div class="comments">
+{% if site.utterances.repo %}
+  <div class="utterances">
+    <iframe class="utterances-frame"></iframe>
+  </div>
+  <script
+    src="//utteranc.es/client.js"
+    repo="{{ site.utterances.repo }}"
+    issue-term="{{ site.utterances.issue_term | default: 'pathname' }}"
+    label="{{ site.utterances.label | default: 'utterances' }}"
+    theme="{{ site.utterances.theme | default: 'github-light' }}"
+    crossorigin="{{ site.utterances.crossorigin | default: 'anonymous' }}"
+    async
+  ></script>
+{% else %}
+  请确认 Utterances 配置正确。<br>
+  Powered by Utterances
+{% endif %}
+</div>

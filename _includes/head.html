@@ -13,32 +13,36 @@
   <link rel="shortcut icon" href="{{ site.favicon }}">
   <script src="//unpkg.com/feather-icons"></script>
   {% if page.comments %}
-    {% if page.comments-engine==disqusjs %}
+    {% if page.comments-engine == "disqusjs" %}
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/disqusjs@3.0/dist/browser/styles/disqusjs.css">
     {% endif %}
-    {% if !page.comments-engine %}
-    {% if site.default-comment==disqusjs %}
+    {% unless page.comments-engine %}
+    {% if site.default-comment == "disqusjs" %}
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/disqusjs@3.0/dist/browser/styles/disqusjs.css">
     {% endif %}
-    {% endif %}
-    {% if page.comments-engine==waline %}
+    {% endunless %}
+    {% if page.comments-engine == "waline" %}
       <link
         rel="stylesheet"
         href="https://unpkg.com/@waline/client@v2/dist/waline.css"
       />
     {% endif %}
-    {% if !page.comments-engine and site.default-comment==waline %}
+    {% unless page.comments-engine %}
+    {% if site.default-comment == "waline" %}
       <link
         rel="stylesheet"
         href="https://unpkg.com/@waline/client@v2/dist/waline.css"
       />
     {% endif %}
-    {% if page.comments-engine==valine %}
+    {% endunless %}
+    {% if page.comments-engine == "valine" %}
       <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
     {% endif %}
-    {% if !page.comments-engine and site.default-comment==valine %}
+    {% unless page.comments-engine %}
+    {% if site.default-comment == "valine" %}
       <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
     {% endif %}
+    {% endunless %}
   {% endif %}
   {% if page.math==true or site.math==true and page.math!=false %}
     <script>
@@ -62,7 +66,7 @@
       };
     </script>
     <script src="//cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" id="MathJax-script"></script>
-  {% elsif page.comments==true and page.comments-engine==waline or not page.comments-engine and site.default-comment==waline %}
+  {% elsif page.comments == true and page.comments-engine == "waline" or !page.comments-engine and site.default-comment == "waline" %}
     <script>
       window.MathJax = {
         options: {

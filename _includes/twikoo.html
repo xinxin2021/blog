@@ -1,7 +1,7 @@
 <div class="comments">
 {% if site.twikoo.envID %}
   <div id="tcomment"></div>
-  <script src="//cdn.staticfile.org/twikoo/{{ site.twikoo.version}}/twikoo.all.min.js"></script>
+  <script src="//cdn.staticfile.org/twikoo/{{ site.twikoo.version }}/twikoo.all.min.js"></script>
   <script>
   twikoo.init({
     envId: '{{ site.twikoo.envID }}', // 腾讯云环境填 envId；Vercel 环境填地址（https://xxx.vercel.app）

@@ -162,7 +162,7 @@ google_analytics: G-Z55V8MJGY8
 #
 
 # 默认使用的评论区，每篇文章可单独配置
-default-comment: twikoo
+default-comment: waline
 
 # 输入Disqus shortname，即可添加评论区，请查阅文档，设置自己的disqus站点，不要继续使用我的站点loffer
 # disqus.com
@@ -213,7 +213,7 @@ valine:
 # waline.js.org
 # 推荐程度：100% 跟Valine类似 无安全漏洞
 waline:
-  serverURL: //waline.xinxin2021.tk
+  serverURL: https://waline.xinxin2021.tk
   requiredMeta: "'nick','mail'"
   login: force
   wordLimit: 500

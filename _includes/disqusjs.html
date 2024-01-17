@@ -1,0 +1,25 @@
+<div class="comments">
+{% if site.disqusjs.apiKey %}
+  <script src="https://cdn.jsdelivr.net/npm/disqusjs@3.0/dist/browser/disqusjs.es2015.umd.min.js"></script>
+  <div id="disqusjs"></div>
+  <script>
+    const disqusjs = new DisqusJS({
+      shortname: '{{ site.disqus }}',
+      siteName: '{{ site.disqusjs.sitename | default: site.name }}',
+      identifier: {% if page.comments-id %}'{{ page.comments-id }}'{% else %}window.location.pathname.replace("index.html"){% endif %},
+      url: window.location.href.replace("index.html"),
+      title: '{{ page.title | default: "document.title" }}',
+      api: '{{ site.disqusjs.api }}',
+      apikey: [{{ site.disqusjs.apiKey }}],
+      nesting: {{ site.disqusjs.nesting | default: '4' }},
+      nocomment: '{{ site.disqusjs.nocomment | default: "这里冷冷清清的，一条评论都没有" }}',
+      admin: '{{ site.disqusjs.admin }}',
+      adminLabel: '{{ site.disqusjs.adminLabel | default: "作者" }}'
+    });
+    disqusjs.render(document.getElementById('disqusjs'));
+  </script>
+{% else %}
+  请确认 DisqusJS 配置正确。<br>
+  Powered by DisqusJS
+{% endif %}
+</div>

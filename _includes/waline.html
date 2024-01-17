@@ -1,0 +1,87 @@
+<div class="comments">
+  {% if site.waline.serverURL %}
+    <div id="waline"></div>
+    <script type="module">
+      import { init } from "//unpkg.com/@waline/client@v2/dist/waline.mjs";
+      init({
+        el: "#waline",
+        serverURL: "{{ site.waline.serverURL }}",
+        path: {% if page.comments-id %}'{{ page.comments-id }}'{% else %}window.location.pathname.replace('index.html'){% endif %},
+        lang: '{{ site.waline.lang.name | default: "zh-CN" }}',
+        commentSorting: '{{ site.waline.commentSorting | default: "latest" }}',
+        meta: [{{ site.waline.meta | default: "'nick', 'mail', 'link'" }}],
+        requiredMeta: [{{ site.waline.requiredMeta }}],
+        login: '{{ site.waline.login | default: "enable" }}',
+        wordLimit: {{ site.waline.wordLimit | default: '0' }},
+        pageSize: {{ site.waline.pageSize | default: '10' }},
+        copyright: {{ site.waline.copyright | default: 'true' }},
+        {% if site.waline.recaptchaV3Key %}recaptchaV3Key: '{{ site.waline.recaptchaV3Key }}',{% endif %}
+        {% if site.waline.turnstileKey %}turnstileKey: '{{ site.waline.turnstileKey }}',{% endif %}
+        reaction: {{ site.waline.reaction | default: 'false' }}
+        texRenderer: (blockMode, tex) =>
+          window.MathJax.startup.adaptor.outerHTML(
+            window.MathJax.tex2chtml(tex, {
+              display: blockMode,
+            }),
+          ),
+        {% if site.waline.lang.custom.enable==true %}locale: {
+          {% if site.waline.lang.custom.reactionTitle %}reactionTitle: '{{ site.waline.lang.custom.reactionTitle }}',{% endif %}
+          {% if site.waline.lang.custom.reaction0 %}reaction0: '{{ site.waline.lang.custom.reaction0 }}',{% endif %}
+          {% if site.waline.lang.custom.reaction1 %}reaction1: '{{ site.waline.lang.custom.reaction1 }}',{% endif %}
+          {% if site.waline.lang.custom.reaction2 %}reaction2: '{{ site.waline.lang.custom.reaction2 }}',{% endif %}
+          {% if site.waline.lang.custom.reaction3 %}reaction3: '{{ site.waline.lang.custom.reaction3 }}',{% endif %}
+          {% if site.waline.lang.custom.reaction4 %}reaction4: '{{ site.waline.lang.custom.reaction4 }}',{% endif %}
+          {% if site.waline.lang.custom.reaction5 %}reaction5: '{{ site.waline.lang.custom.reaction5 }}',{% endif %}
+          {% if site.waline.lang.custom.reaction6 %}reaction6: '{{ site.waline.lang.custom.reaction6 }}',{% endif %}
+          {% if site.waline.lang.custom.reaction7 %}reaction7: '{{ site.waline.lang.custom.reaction7 }}',{% endif %}
+          {% if site.waline.lang.custom.reaction8 %}reaction8: '{{ site.waline.lang.custom.reaction8 }}',{% endif %}
+          {% if site.waline.lang.custom.nick %}nick: '{{ site.waline.lang.custom.nick }}',{% endif %}
+          {% if site.waline.lang.custom.mail %}mail: '{{ site.waline.lang.custom.mail }}',{% endif %}
+          {% if site.waline.lang.custom.link %}link: '{{ site.waline.lang.custom.link }}',{% endif %}
+          {% if site.waline.lang.custom.placeholder %}placeholder: '{{ site.waline.custom.placeholder }}',{% endif %}
+          {% if site.waline.lang.custom.sofa %}sofa: '{{ site.waline.custom.sofa }}',{% endif %}
+          {% if site.waline.lang.custom.submit %}submit: '{{ site.waline.custom.submit }}',{% endif %}
+          {% if site.waline.lang.custom.comment %}comment: '{{ site.waline.custom.comment }}',{% endif %}
+          {% if site.waline.lang.custom.refresh %}refresh: '{{ site.waline.custom.refresh }}',{% endif %}
+          {% if site.waline.lang.custom.more %}more: '{{ site.waline.custom.more }}',{% endif %}
+          {% if site.waline.lang.custom.uploading %}uploading: '{{ site.waline.custom.uploading }}',{% endif %}
+          {% if site.waline.lang.custom.login %}login: '{{ site.waline.custom.login }}',{% endif %}
+          {% if site.waline.lang.custom.admin %}admin: '{{ site.waline.custom.admin }}',{% endif %}
+          {% if site.waline.lang.custom.sticky %}sticky: '{{ site.waline.custom.sticky }}',{% endif %}
+          {% if site.waline.lang.custom.word %}word: '{{ site.waline.custom.word }}',{% endif %}
+          {% if site.waline.lang.custom.anonymous %}anonymous: '{{ site.waline.custom.anonymous }}',{% endif %}
+          {% if site.waline.lang.custom.optional %}optional: '{{ site.waline.custom.optional }}',{% endif %}
+          {% if site.waline.lang.custom.gifSearchPlaceholder %}gifSearchPlaceholder: '{{ site.waline.custom.gifSearchPlaceholder }}',{% endif %}
+          {% if site.waline.lang.custom.oldest %}oldest: '{{ site.waline.custom.oldest }}',{% endif %}
+          {% if site.waline.lang.custom.latest %}latest: '{{ site.waline.custom.latest }}',{% endif %}
+          {% if site.waline.lang.custom.hottest %}hottest: '{{ site.waline.custom.hottest }}',{% endif %}
+          {% if site.waline.lang.custom.nickError %}nickError: '{{ site.waline.custom.nickError }}',{% endif %}
+          {% if site.waline.lang.custom.mailError %}mailError: '{{ site.waline.custom.mailError }}',{% endif %}
+          {% if site.waline.lang.custom.wordHint %}wordHint: '{{ site.waline.custom.wordHint }}',{% endif %}
+          {% if site.waline.lang.custom.seconds %}seconds: '{{ site.waline.custom.seconds }}',{% endif %}
+          {% if site.waline.lang.custom.minutes %}minutes: '{{ site.waline.custom.minutes }}',{% endif %}
+          {% if site.waline.lang.custom.hours %}hours: '{{ site.waline.custom.hours }}',{% endif %}
+          {% if site.waline.lang.custom.days %}days: '{{ site.waline.custom.days }}',{% endif %}
+          {% if site.waline.lang.custom.now %}now: '{{ site.waline.custom.now }}',{% endif %}
+          {% if site.waline.lang.custom.approved %}approved: '{{ site.waline.custom.approved }}',{% endif %}
+          {% if site.waline.lang.custom.waiting %}waiting: '{{ site.waline.custom.waiting }}',{% endif %}
+          {% if site.waline.lang.custom.spam %}spam: '{{ site.waline.custom.spam }}',{% endif %}
+          {% if site.waline.lang.custom.unsticky %}unsticky: '{{ site.waline.custom.unsticky }}',{% endif %}
+          {% if site.waline.lang.custom.like %}like: '{{ site.waline.custom.like }}',{% endif %}
+          {% if site.waline.lang.custom.cancelLike %}cancelLike: '{{ site.waline.custom.cancelLike }}',{% endif %}
+          {% if site.waline.lang.custom.reply %}reply: '{{ site.waline.custom.reply }}',{% endif %}
+          {% if site.waline.lang.custom.cancelReply %}cancelReply: '{{ site.waline.custom.cancelReply }}',{% endif %}
+          {% if site.waline.lang.custom.preview %}preview: '{{ site.waline.custom.preview }}',{% endif %}
+          {% if site.waline.lang.custom.emoji %}emoji: '{{ site.waline.custom.emoji }}',{% endif %}
+          {% if site.waline.lang.custom.gif %}gif: '{{ site.waline.custom.gif }}',{% endif %}
+          {% if site.waline.lang.custom.uploadImage %}uploadImage: '{{ site.waline.custom.uploadImage }}',{% endif %}
+          {% if site.waline.lang.custom.profile %}profile: '{{ site.waline.custom.profile }}',{% endif %}
+          {% if site.waline.lang.custom.logout %}logout: '{{ site.waline.custom.logout }}',{% endif %}
+        }{% endif %}
+      });
+    </script>
+  {% else %}
+  请确认 Waline 配置正确。<br>
+  Powered by Waline
+  {% endif %}
+</div>

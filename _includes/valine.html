@@ -1,0 +1,58 @@
+<div class="comments">
+{% if site.valine.appID %}
+  <div id="vcomments"></div>
+  <script>
+    new Valine({
+      el: "#vcomments",
+      appId: "{{ site.valine.appID }}",
+      appKey: "{{ site.valine.appKey }}",
+      placeholder: "{{ site.valine.placeholder }}",
+      path: {% if page.comments-id %}'{{ page.comments-id }}'{% else %}window.location.pathname.replace('index.html'){% endif %},
+      avatar: "{{ site.valine.avatar | default: 'mp' }}",
+      pageSize: {{ site.valine.pageSize | default: 10 }},
+      {% if !lang.name %}lang: "{{ site.valine.lang.name | default: 'zh-CN' }}",{% endif %}
+      visitor: {{ site.valine.visitor | default: 'true' }},
+      recordIP: {{ site.valine.recordIP | default: 'true' }},
+      {% if site.valine.serverURLs %}serverURLs: {{ site.valine.serverURLs }},{% endif %}
+      enableQQ: {{ site.valine.enableQQ | default: 'true' }},
+      requireFields: [{{ site.valine.requireFields | default: "'nick','mail'" }}],
+      {% if site.valine.lang.custom.enable == "true" %}langMode: {
+        "nick": "{{ site.valine.lang.custom.nick }}",
+        "mail": "{{ site.valine.lang.custom.mail }}",
+        "link": "{{ site.valine.lang.custom.link }}",
+        "nickFail": "{{ site.valine.lang.custom.nickFail }}",
+        "mailFail": "{{ site.valine.lang.custom.mailFail }}",
+        "sofa": "{{ site.valine.lang.custom.sofa }}",
+        "submit": "{{ site.valine.lang.custom.submit }}",
+        "reply": "{{ site.valine.lang.custom.reply }}",
+        "cancelReply": "{{ site.valine.lang.custom.cancelReply }}",
+        "comments": "{{ site.valine.lang.custom.comments }}",
+        "cancel": "{{ site.valine.lang.custom.cancel }}",
+        "confirm": "{{ site.valine.lang.custom.confirm }}",
+        "continue": "{{ site.valine.lang.custom.continue }}",
+        "more": "{{ site.valine.lang.custom.more }}",
+        "preview": "{{ site.valine.lang.custom.preview }}",
+        "emoji": "{{ site.valine.lang.custom.emoji }}",
+        "expand": "{{ site.valine.lang.custom.expand }}",
+        "seconds": "{{ site.valine.lang.custom.seconds }}",
+        "minutes": "{{ site.valine.lang.custom.minutes }}",
+        "hours": "{{ site.valine.lang.custom.hours }}",
+        "days": "{{ site.valine.lang.custom.days }}",
+        "now": "{{ site.valine.lang.custom.now }}",
+        "uploading": "{{ site.valine.lang.custom.uploading }}",
+        "uploadDone": "{{ site.valine.lang.custom.uploadDone }}",
+        "busy": "{{ site.valine.lang.custom.busy }}",
+        "code-98": "{{ site.valine.lang.custom.code-98 }}",
+        "code-99": "{{ site.valine.lang.custom.code-99 }}",
+        "code-100": "{{ site.valine.lang.custom.code-100 }}",
+        "code-140": "{{ site.valine.lang.custom.code-140 }}",
+        "code-401": "{{ site.valine.lang.custom.code-401 }}",
+        "code-403": "{{ site.valine.lang.custom.code-403 }}"
+      }{% endif %}
+    });
+  </script>
+{% else %}
+  请确认 Valine 配置正确。<br>
+  Powered by Valine
+{% endif %}
+</div>

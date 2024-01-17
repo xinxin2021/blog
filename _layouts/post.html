@@ -2,64 +2,6 @@
 layout: default
 ---
 
-<style type="text/css">
-  .warn-bg {
-    text-align: center;
-    display: inline-block;
-    background: #ffefd4;
-    border-radius: 5px;
-  }
-  .error-bg {
-    text-align: center;
-    display: inline-block;
-    background: #ffb5b5;
-    border-radius: 5px;
-  }
-  .warn-block-bg {
-    display: block;
-    background: #ffefd4;
-    border-radius: 5px;
-  }
-  .error-block-bg {
-    display: block;
-    background: #ffb5b5;
-    border-radius: 5px;
-  }
-  .warn-error-block {
-    list-style: none; 
-  }
-  .license {
-    font-weight: 300;
-    font-size: 14px;
-    color: #868e96;
-    margin-right: 4px;
-  }
-  .middle-parent::after, .middle-son{
-    display: inline-block;
-    vertical-align: middle;
-  }
-  .middle-parent::after{
-    height: 100%;
-  }
-  .heimu, .heimu a, a .heimu, .heimu a.new {
-    background-color: #252525;
-    color: #252525;
-    text-shadow: none;
-  }
-  .heimu:hover, .heimu:active,
-  .heimu:hover .heimu, .heimu:active .heimu {
-    color: white !important;
-  }
-  .heimu:hover a, a:hover .heimu,
-  .heimu:active a, a:active .heimu {
-    color: lightblue !important;
-  }
-  .heimu:hover .new, .heimu .new:hover, .new:hover .heimu,
-  .heimu:active .new, .heimu .new:active, .new:active .heimu {
-    color: #BA0000 !important;
-  }
-</style>
-
 <article class="posts">
   <h1>{{ page.title }}</h1>
 
@@ -145,13 +87,8 @@ layout: default
         </details>
       {% endfor %}
     {% endif %}
-  </div>
 
-  <div class="entry">
-    {{ content }}
-  </div>
-
-  <div class="meta">
+    <br>
     <span class="text-tags">Tags: </span>
     <ul class="tag">
       {% for tag in page.tags %}
@@ -163,6 +100,60 @@ layout: default
       {% endfor %}
     </ul>
   </div>
+
+  <div class="entry">
+    {{ content }}
+  </div>
+
+  {% if page.comments %}
+    {% if page.comments-engine %}
+      {% if page.comments-engine == "disqus" %}
+        {% include disqus.html %}
+      {% endif %}
+      {% if page.comments-engine == "utterances" %}
+        {% include utterancess.html %}
+      {% endif %}
+      {% if page.comments-engine == "gitalk" %}
+        {% include gitalk.html %}
+      {% endif %}
+      {% if page.comments-engine == "giscus" %}
+        {% include giscus.html %}
+      {% endif %}
+      {% if page.comments-engine == "twikoo" %}
+        {% include twikoo.html %}
+      {% endif %}
+      {% if page.comments-engine == "waline" %}
+        {% include waline.html %}
+      {% endif %}
+      {% if page.comments-engine == "valine" %}
+        {% include valine.html %}
+      {% endif %}
+      {% if page.comments-engine == "beaudar" %}
+        {% include beaudar.html %}
+      {% endif %}
+    {% else %}
+      {% if site.default-comment %}
+        {% if site.default-comment == "disqus" %}
+          {% include disqus.html %}
+        {% elsif site.default-comment == "utterances" %}
+          {% include utterances.html %}
+        {% elsif site.default-comment == "gitalk" %}
+          {% include gitalk.html %}
+        {% elsif site.default-comment == "giscus" %}
+          {% include giscus.html %}
+        {% elsif site.default-comment == "twikoo" %}
+          {% include twikoo.html %}
+        {% elsif site.default-comment == "waline" %}
+          {% include waline.html %}
+        {% elsif site.default-comment == "valine" %}
+          {% include valine.html %}
+        {% elsif site.default-comment == "beaudar" %}
+          {% include beaudar.html %}
+        {% endif %}
+      {% endif %}
+    {% endif %}
+  {% endif %}
+  
 </article>
 
 <div class="pagination">

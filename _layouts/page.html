@@ -20,54 +20,40 @@ layout: default
 
   {% if page.comments %}
     {% if page.comments-engine %}
-      {% if page.comments-engine == disqus %}
+      {% if page.comments-engine == "disqus" %}
         {% include disqus.html %}
-      {% endif %}
-      {% if page.comments-engine == utterances %}
+      {% elsif page.comments-engine == "utterances" %}
         {% include utterancess.html %}
-      {% endif %}
-      {% if page.comments-engine == gitalk %}
+      {% elsif page.comments-engine == "gitalk" %}
         {% include gitalk.html %}
-      {% endif %}
-      {% if page.comments-engine == giscus %}
+      {% elsif page.comments-engine == "giscus" %}
         {% include giscus.html %}
-      {% endif %}
-      {% if page.comments-engine == twikoo %}
+      {% elsif page.comments-engine == "twikoo" %}
         {% include twikoo.html %}
-      {% endif %}
-      {% if page.comments-engine == waline %}
+      {% elsif page.comments-engine == "waline" %}
         {% include waline.html %}
-      {% endif %}
-      {% if page.comments-engine == valine %}
+      {% elsif page.comments-engine == "valine" %}
         {% include valine.html %}
-      {% endif %}
-      {% if page.comments-engine == beaudar %}
+      {% elsif page.comments-engine == "beaudar" %}
         {% include beaudar.html %}
       {% endif %}
     {% else %}
       {% if site.default-comment %}
-        {% if site.default-comment == disqus %}
+        {% if site.default-comment == "disqus" %}
           {% include disqus.html %}
-        {% endif %}
-        {% if site.default-comment == utterances %}
+        {% elsif site.default-comment == "utterances" %}
           {% include utterances.html %}
-        {% endif %}
-        {% if site.default-comment == gitalk %}
+        {% elsif site.default-comment == "gitalk" %}
           {% include gitalk.html %}
-        {% endif %}
-        {% if site.default-comment == giscus %}
+        {% elsif site.default-comment == "giscus" %}
           {% include giscus.html %}
-        {% endif %}
-        {% if site.default-comment == twikoo %}
+        {% elsif site.default-comment == "twikoo" %}
           {% include twikoo.html %}
-        {% endif %}
-        {% if site.default-comment == waline %}
+        {% elsif site.default-comment == "waline" %}
           {% include waline.html %}
-        {% endif %}
-        {% if site.default-comment == valine %}
+        {% elsif site.default-comment == "valine" %}
           {% include valine.html %}
-        {% endif %}
-        {% if site.default-comment == beaudar %}
+        {% elsif site.default-comment == "beaudar" %}
           {% include beaudar.html %}
         {% endif %}
       {% endif %}

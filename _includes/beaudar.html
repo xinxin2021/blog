@@ -1,0 +1,25 @@
+<div class="comments">
+{% if site.beaudar.repo %}
+  <div class=".beaudar">
+    <iframe class=".beaudar-frame"></iframe>
+  </div>
+  <script
+    src="//beaudar.lipk.org/client.js"
+    repo="{{ site.beaudar.repo }}"
+    branch="{{ site.beaudar.branch | default: 'main' }}"
+    issue-term="{{ site.beaudar.issue-term | default: 'pathname' }}"
+    issue-label="{{ site.beaudar.issue-label | default: 'pathname' }}"
+    label="{{ site.beaudar.label | default: 'Beaudar' }}"
+    theme="{{ site.beaudar.theme | default: 'github-light' }}"
+    {% if site.beaudar.keep-theme %}keep-theme="{{ site.beaudar.keep-theme }}"{% endif %}
+    {% if site.beaudar.loading %}loading="{{ site.beaudar.loading }}"{% endif %}
+    {% if site.beaudar.comment-order %}comment-order="{{ site.beaudar.comment-order }}"{% endif %}
+    {% if site.beaudar.input-position %}input-position="{{ site.beaudar.input-position }}"{% endif %}
+    crossorigin="{{ site.beaudar.crossorigin | default: 'anonymous' }}"
+    async
+  ></script>
+{% else %}
+请确认 Beaudar 配置正确。<br>
+Powered by Beaudar
+{% endif %}
+</div>
