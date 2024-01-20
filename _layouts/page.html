@@ -18,6 +18,8 @@ layout: default
     {{ content }}
   </div>
 
+  {% include card.html %}
+
   {% if page.comments %}
     {% if page.comments-engine %}
       {% if page.comments-engine == "disqus" %}

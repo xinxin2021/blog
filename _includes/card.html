@@ -1,0 +1,60 @@
+<div class="license-card">
+  <div class="license-title">
+    <p>{{ page.title }}</p>
+    <p>
+      <a href="{{ page.url }}" one-link-mark="yes">{{ site.url }}{{ site.baseurl}}{{ page.url }}</a>
+    </p>
+  </div>
+  <div class="license-meta">
+    <div class="level-left">
+      {% if page.author %}
+      <div class="level-item">
+        <div>
+          <p class="license-item">作者</p>
+          <p>{{ page.author }}</p>
+        </div>
+      </div>
+      {% endif %}
+      {% if page.date %}
+      <div class="level-item">
+        <div>
+          <p class="license-item">发布于</p>
+          <p>{{ page.date | date: "%Y-%m-%d" }}</p>
+        </div>
+      </div>
+      {% endif %}
+      {% if page.update %}
+      <div class="level-item">
+        <div>
+          <p class="license-item">更新于</p>
+          <p>{{ page.update | date: "%Y-%m-%d" }}</p>
+        </div>
+      </div>
+      {% endif %}
+      {% if page.license %}
+      <div class="level-item">
+        <div>
+          <p class="license-item">许可协议</p>
+          {% if page.license contains 'CC' %}
+          <style>
+          .license-card:after {
+            position: absolute;
+            z-index: -1;
+            right: -75px;
+            top: 100px;
+            content: '\f25e';
+            font-size: 360px;
+            font-family: 'Font Awesome 5 Brands';
+            opacity: .1;
+          }
+          </style>
+          <p><a rel="noopener" target="_blank" title="{{ page.license }}" href="{% if page.license-link %}//creativecommons.org/{{ page.license-link }}{% else %}{{ site.default-cc }}{% endif %}" one-link-mark="yes" >{{ page.license }}</a></p>
+          {% else %}
+          <p>{{ page.license }}</p>
+          {% endif %}
+        </div>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</div>

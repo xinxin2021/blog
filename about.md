@@ -2,6 +2,8 @@
 layout: page
 title: About
 permalink: /about/
+license: CC0 1.0 Universal
+license-link: publicdomain/zero/1.0/deed.zh-hans
 comments: true
 ---
 
@@ -61,7 +63,7 @@ CC 是 Creative Commons 的简称，中国大陆译名为“知识共享”。CC
 
 感谢 [Freenom](//freenom.com) 和 [eu.org](//nic.eu.org) 提供的免费域名及 [Cloudflare](//cloudflare.com) 提供的 DNS 托管、免费加速及防 DDoS 服务。
 
-感谢 [Zoho](//zoho.com) 提供的免费域名邮箱服务。
+感谢 [Microsoft](//microsoft.com) 提供的邮箱服务。
 
 感谢 Markdown 写作格式及 [Git](//git-scm.com) 分布式版本控制系统。
 
@@ -94,10 +96,6 @@ CC 是 Creative Commons 的简称，中国大陆译名为“知识共享”。CC
 详情见[法律声明 / 免责声明](/policy/legal/)。
 
 ---
-
-[![](//licensebuttons.net/l/zero/1.0/88x31.png)](//creativecommons.org/publicdomain/zero/1.0/deed.zh)
-
-此关于页采用 [CC0 1.0通用](//creativecommons.org/publicdomain/zero/1.0/deed.zh) 协议进行许可(不包括引用的知识共享许可证徽章及其他引用内容)。
 
 [联系作者](mailto:blog@xinxin2021.tk) · [侵权联系](mailto:tort@xinxin2021.tk) —— [QZone](//sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https%3A%2F%2Fblog.xinxin2021.tk%2Fabout%2F&title=About&site=%E9%91%AB%E5%8D%9A%E5%AE%A2) · [Weibo](//service.weibo.com/share/share.php?url=https%3A%2F%2Fblog.xinxin2021.tk%2Fabout%2F&count=1&title=About&language=zh_cn)
 

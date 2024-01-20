@@ -90,8 +90,10 @@
     <script src="//cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" id="MathJax-script"></script>
   {% endif %}
   {% if page.mermaid==true or site.mermaid==true and page.mermaid!=false %}
-    <script src="//cdn.bootcss.com/mermaid/8.0.0-rc.8/mermaid.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
   {% endif %}
+  <script src="{{ site.url }}{{ site.baseurl }}/assets/js/jquery-2.1.4.min.js"></script>
+  <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/assets/css/brands.min.css"></link>
 
   <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
 

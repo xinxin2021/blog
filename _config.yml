@@ -25,7 +25,10 @@ baseurl:
 
 # 网页变灰，哀悼用
 # 0关1开2永开
-gray: 0
+gray: 1
+
+# 默认许可协议链接 (识别到 CC 协议时用)
+default-cc: //creativecommons.org/licenses/by-nc/4.0/deed.zh-hans
 
 # 你的博客logo图片URL，建议尺寸不超过300px × 300px
 avatar: //s1.imagehub.cc/images/2022/12/21/20c185c419a87ce16d7161a94887440d.png

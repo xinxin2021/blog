@@ -88,7 +88,15 @@ layout: default
       {% endfor %}
     {% endif %}
 
-    <br>
+  </div>
+
+  <div class="entry">
+    {{ content }}
+  </div>
+
+  {% include card.html %}
+
+  <div class="meta-tags">
     <span class="text-tags">Tags: </span>
     <ul class="tag">
       {% for tag in page.tags %}
@@ -99,10 +107,6 @@ layout: default
       </li>
       {% endfor %}
     </ul>
-  </div>
-
-  <div class="entry">
-    {{ content }}
   </div>
 
   {% if page.comments %}
