@@ -28,7 +28,11 @@ layout: default
     
     {% if page.license %}
       <span class="license">
+        {% if page.license contains 'CC' %}
+        <a class="license" rel="noopener" target="_blank" title="{{ page.license }}" href="{% if page.license-link %}//creativecommons.org/{{ page.license-link }}{% else %}{{ site.default-cc }}{% endif %}" one-link-mark="yes">{{ page.license }}</a>
+        {% else %}
         {{ page.license }}
+        {% endif %}
       </span>
     {% endif %}
 
