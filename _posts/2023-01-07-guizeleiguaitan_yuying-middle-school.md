@@ -139,5 +139,3 @@ warn: [惊悚内容]
 ---
 
 本文章来源于网络。
-
-[联系鑫鑫](mailto:blog@xinxin2021.tk) · [侵权联系](mailto:tort@xinxin2021.tk) —— 分享 · [QZone](https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https%3A%2F%2Fblog.xinxin2021.tk%2Fguizeleiguaitan_yuying%2F&title=%E8%A7%84%E5%88%99%E7%B1%BB%E6%80%AA%E8%B0%88%E4%B9%8B%E8%82%B2%E8%8B%B1%E4%B8%AD%E5%AD%A6&site=%E9%91%AB%E5%8D%9A%E5%AE%A2) · [Weibo](https://service.weibo.com/share/share.php?url=https%3A%2F%2Fblog.xinxin2021.tk%2Fguizeleiguaitan_yuying%2F&count=1&title=%E8%A7%84%E5%88%99%E7%B1%BB%E6%80%AA%E8%B0%88%E4%B9%8B%E8%82%B2%E8%8B%B1%E4%B8%AD%E5%AD%A6&language=zh_cn)

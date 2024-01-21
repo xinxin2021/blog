@@ -39,9 +39,3 @@ author: 毛泽东
 庆贺中华人民共和国的成立！
 
 庆贺中国人民政治协商会议的成功！
-
----
-
-[联系鑫鑫](mailto:xinxin@xinxin2021.tk) · [侵权联系](https://docs.qq.com/s/Pv7tKVg7UWBl38ydYpeNNW) —— 分享 · [QZone](https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https%3A%2F%2Fblog.xinxin2021.tk%2Fchinese-people-maozedong%2F&title=%E3%80%8A%E4%B8%AD%E5%9B%BD%E4%BA%BA%E6%B0%91%E7%AB%99%E8%B5%B7%E6%9D%A5%E4%BA%86%E3%80%8B&site=%E9%91%AB%E5%8D%9A%E5%AE%A2) · [Weibo](https://service.weibo.com/share/share.php?url=https%3A%2F%2Fblog.xinxin2021.tk%2Fchinese-people-maozedong%2F&count=1&title=%E3%80%8A%E4%B8%AD%E5%9B%BD%E4%BA%BA%E6%B0%91%E7%AB%99%E8%B5%B7%E6%9D%A5%E4%BA%86%E3%80%8B&language=zh_cn)
-
-

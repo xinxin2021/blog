@@ -93,7 +93,10 @@
     <script src="//cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
   {% endif %}
   <script src="{{ site.url }}{{ site.baseurl }}/assets/js/jquery-2.1.4.min.js"></script>
-  <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/assets/css/brands.min.css"></link>
+  <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/assets/css/brands.min.css">
+  {% if site.gray == 1 %}
+  <script src="{{ site.url }}{{ site.baseurl }}/assets/js/gray.js"></script>
+  {% endif %}
 
   <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
 

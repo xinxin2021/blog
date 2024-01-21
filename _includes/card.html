@@ -2,7 +2,7 @@
   <div class="license-title">
     <p>{{ page.title }}</p>
     <p>
-      <a href="{{ page.url }}" one-link-mark="yes">https://{{ site.url }}{{ site.baseurl}}{{ page.url }}</a>
+      <a href="{{ page.url }}" one-link-mark="yes">{% unless site.url contains 'http://' and site.url contains 'https://' %}{% if site.https == 1 %}https:{% else %}http:{% endif %}{% endunless %}{{ site.url }}{{ site.baseurl}}{{ page.url }}</a>
     </p>
   </div>
   <div class="license-meta">
@@ -37,15 +37,17 @@
           <p class="license-item">许可协议</p>
           {% if page.license contains 'CC' %}
           <style>
-          .license-card:after {
-            position: absolute;
-            z-index: -1;
-            right: -75px;
-            top: 100px;
-            content: '\f25e';
-            font-size: 360px;
-            font-family: 'Font Awesome 5 Brands';
-            opacity: .1;
+          @media screen and (min-width: 520px) {
+            .license-card:after {
+              position: absolute;
+              z-index: -1;
+              right: -75px;
+              top: 100px;
+              content: '\f25e';
+              font-size: 360px;
+              font-family: 'Font Awesome 5 Brands';
+              opacity: .1;
+            }
           }
           </style>
           <p><a rel="noopener" target="_blank" title="{{ page.license }}" href="{% if page.license-link %}//creativecommons.org/{{ page.license-link }}{% else %}{{ site.default-cc }}{% endif %}" one-link-mark="yes" >{{ page.license }}</a></p>

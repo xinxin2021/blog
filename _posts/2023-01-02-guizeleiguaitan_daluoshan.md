@@ -1906,9 +1906,3 @@ warn: [惊悚内容]
 > 如果出现了超过3天还是找到神庙的
 > 
 > 这个就会变成最恐怖的存在 消灭整个地方（这里的逻辑是在步道呆的时间足够长，人就会彻底的迷失，迷失的讲道理是看不到神庙的，如果看到神庙，就会触发及其恐怖的东西，也标志这个区域的防守完全失败。
-
----
-
-本文章来源于网络。内容可能因作者疏忽与原文有出入。
-
-[联系鑫鑫](mailto:blog@xinxin2021.tk) · [侵权联系](mailto:tort@xinxin2021.tk) —— 分享 · [QZone](https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https%3A%2F%2Fblog.xinxin2021.tk%2Fguizeleiguaitan_daluoshan%2F&title=%E8%A7%84%E5%88%99%E7%B1%BB%E6%80%AA%E8%B0%88%E4%B9%8B%E5%A4%A7%E6%B4%9B%E5%B1%B1&site=%E9%91%AB%E5%8D%9A%E5%AE%A2) · [Weibo](https://service.weibo.com/share/share.php?url=https%3A%2F%2Fblog.xinxin2021.tk%2Fguizeleiguaitan_daluoshan%2F&count=1&title=%E8%A7%84%E5%88%99%E7%B1%BB%E6%80%AA%E8%B0%88%E4%B9%8B%E5%A4%A7%E6%B4%9B%E5%B1%B1&language=zh_cn)

@@ -14,7 +14,7 @@
   {% endif %}
   {% if site.public-security-record.enable %}
   <a href="//www.beian.gov.cn/portal/registerSystemInfo?recordcode={{ site.public-security-record.number }}">
-    <img style="display:inline-block;vertical-align:middle;width:20px;height:20px;margin-top:10px;" alt="联网备案号" src="{{ site.baseurl }}/gongan.png" width="20" height="20">
+    <img class="public-security-record no-gray" alt="联网备案号" src="{{ site.baseurl }}/gongan.png" width="20" height="20">
     {{ site.public-security-record.region }}公安网备{{ site.public-security-record.number }}号
   </a>
   {% endif %}

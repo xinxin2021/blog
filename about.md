@@ -95,8 +95,8 @@ CC 是 Creative Commons 的简称，中国大陆译名为“知识共享”。CC
 
 详情见[法律声明 / 免责声明](/policy/legal/)。
 
----
+<div id="gray-reason"></div>
 
-[联系作者](mailto:blog@xinxin2021.tk) · [侵权联系](mailto:tort@xinxin2021.tk) —— [QZone](//sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https%3A%2F%2Fblog.xinxin2021.tk%2Fabout%2F&title=About&site=%E9%91%AB%E5%8D%9A%E5%AE%A2) · [Weibo](//service.weibo.com/share/share.php?url=https%3A%2F%2Fblog.xinxin2021.tk%2Fabout%2F&count=1&title=About&language=zh_cn)
+---
 
 哦对了，这里现已成为留言板↓↓↓

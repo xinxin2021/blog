@@ -504,11 +504,3 @@ license: CC-BY-NC 4.0 Intl
 16. 一人犯事一人当 要是负法律责任和群主管理会其他群员一点关系没有 
 
 17. 以法律版为准
-
----
-
-[![](https://licensebuttons.net/l/by-nc/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)
-
-本文章及本文章内引用的群规采用[CC-BY-NC 4.0国际](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)许可协议进行许可(不包括引用的知识共享许可证徽章)。
-
-[联系作者](mailto:xinxin@xinxin2021.tk) · [侵权联系](mailto:tort@xinxin2021.tk) · [相关文件](://docs.qq.com/s/Pv7tKVg7UWBl38ydYpeNNW) —— 分享 · [QZone](https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https%3A%2F%2Fblog.xinxin2021.tk%2Fstudent_group_rule%2F&title=%E7%A6%BB%E8%B0%B1%E7%9A%84%E7%BE%A4%E8%A7%84&site=%E9%91%AB%E5%8D%9A%E5%AE%A2) · [Weibo](https://service.weibo.com/share/share.php?url=https%3A%2F%2Fblog.xinxin2021.tk%2Fstudent_group_rule%2F&count=1&title=%E7%A6%BB%E8%B0%B1%E7%9A%84%E7%BE%A4%E8%A7%84&language=zh_cn)

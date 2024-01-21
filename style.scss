@@ -626,6 +626,16 @@ nav {
   }
 }
 
+// gray
+
+.gray {
+  filter: grayscale(95%);
+}
+
+.no-gray {
+  filter: grayscale(0) !important;
+}
+
 // License
 
 .license-card {
@@ -901,6 +911,14 @@ footer {
       left: 0;
     }
   }
+}
+
+.public-security-record {
+  display: inline-block;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+  margin-top: 10px;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
