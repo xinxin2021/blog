@@ -51,7 +51,7 @@ CC 是 Creative Commons 的简称，中国大陆译名为“知识共享”。CC
 
 ### 友情链接
 
-[个人介绍](//www.xinxin2021.tk) / [我爹的博客](//blog.xilong.tk) / [MacWinLin 工作室官方博客](//blog.macwinlin.ml)
+[个人介绍](//www.gteh.top) / [我爹的博客](//blog.xilong.tk) (关站) / [MacWinLin 工作室官方博客](//blog.macwinlin.ml) (关站)
 
 ## 致谢
 

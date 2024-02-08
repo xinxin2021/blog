@@ -100,7 +100,9 @@ layout: default
 
   {% include card.html %}
 
+
   <div class="meta-tags">
+    {% if page.tags %}
     <span class="text-tags">Tags: </span>
     <ul class="tag">
       {% for tag in page.tags %}
@@ -111,6 +113,7 @@ layout: default
       </li>
       {% endfor %}
     </ul>
+    {% endif %}
   </div>
 
   {% if page.comments %}

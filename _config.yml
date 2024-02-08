@@ -11,7 +11,7 @@ name: 鑫博客
 description: 团结是需要付出代价的
 
 # 输入你的网站域名（如果你没有添加自己的域名，而是直接用GitHub pages分配的域名的话可以省略）
-url: //blog.xinxin2021.tk
+url: //blog.gteh.top
 
 # 添加你的博客的二级域名，一般来说是你的repository名
 # 如果你的博客的URL是：(http://yourusername.github.io/repository-name)
@@ -37,7 +37,7 @@ default-cc: //creativecommons.org/licenses/by-nc/4.0/deed.zh-hans
 avatar: //s1.imagehub.cc/images/2022/12/21/20c185c419a87ce16d7161a94887440d.png
 
 # 你的favicon（出现在浏览器tab上）图片URL，建议使用较小(64px × 64px)的图片
-favicon: //www.xinxin2021.tk/blog-favicon.ico
+favicon: //www.gteh.top/blog-favicon.ico
 
 # 菜单中的按钮
 navigation:
@@ -62,12 +62,12 @@ friends:
   - name: 测试网站
     link: www.example.com
     url: //www.example.com
-    avatar: //www.xinxin2021.tk/images/contacts.png
+    avatar: //www.gteh.top/images/contacts.png
     descr: 测试网站
   - name: 测试网站
     link: www.example.com
     url: //www.example.com
-    avatar: //www.xinxin2021.tk/images/contacts.png
+    avatar: //www.gteh.top/images/contacts.png
     descr: 测试网站
     status: 1
     
@@ -95,7 +95,7 @@ mermaid: false
 ipv6:
   enable: true
   # 链接
-  link: https://blog.xinxin2021.tk
+  link: https://blog.gteh.top
   # icon1为图标本站已支持IPv6访问 icon2为图标IPv6 text为自定义文字
   icon: icon2
   # 图标是否有边框 false关true开
@@ -111,7 +111,7 @@ ipv6:
 ssl:
   enable: true
   # 链接
-  link: https://blog.xinxin2021.tk
+  link: https://blog.gteh.top
   # icon为图标 text为文字
   icon: icon
   # 自定义文字
@@ -139,7 +139,7 @@ public-security-record:
 
 # 你的社交网络链接，它们会作为图标出现在你的网站页脚中，可选填写
 footer-links: 
-  email: xinxin@xinxin2021.tk
+  email: gteh@gteh.top
   facebook: #https://www.facebook.com/<>
   github: xinxin2021
   gitlab: xinxin2021
@@ -184,7 +184,7 @@ gitalk:
   repo: blog
   owner: xinxin2021
   lang: zh-CN
-  proxy: //blog-proxy.xinxin2021.tk/github/login/oauth/access_token
+  proxy: //blog-proxy.gteh.top/github/login/oauth/access_token
 
 # utteranc.es
 # 推荐程度：70% 类似Gitalk 无安全性问题
@@ -202,7 +202,7 @@ beaudar:
 valine:
   appID: Kn8HIWWLzAMNMSWzHxGRLlEX-MdYXbMMI
   appKey: CzXkIdK2nKxYUXhgWS3ggGd3
-  placeholder: "可自动获取 QQ 昵称与头像。当您发表评论后，将由 bot@xinxin2021.tk 邮件通知您，务必保证您的邮箱填写正确。"
+  placeholder: "可自动获取 QQ 昵称与头像。当您发表评论后，将由 bot@gteh.top 邮件通知您，务必保证您的邮箱填写正确。"
   lang:
     name: zh-CN
     custom:
@@ -211,7 +211,7 @@ valine:
 # waline.js.org
 # 推荐程度：100% 跟Valine类似 无安全漏洞
 waline:
-  serverURL: https://waline.xinxin2021.tk
+  serverURL: https://waline.gteh.top
   requiredMeta: "'nick','mail'"
   login: force
   wordLimit: 500
@@ -234,7 +234,7 @@ giscus:
 # 推荐程度100%
 twikoo:
   # 为了确保在仅HTTP连接的情况下可以访问，其他链接写的都是//开头，这个不行，这个写//会自动侦测为腾讯云envID :(
-  envID: https://twikoo.xinxin2021.tk
+  envID: https://twikoo.gteh.top
   # 环境地域，默认为 ap-shanghai，腾讯云环境填 ap-shanghai 或 ap-guangzhou；Vercel 环境注释
   #region: ap-guangzhou
   # Twikoo 版本
@@ -269,6 +269,8 @@ plugins:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
   - jekyll-paginate
+  - jemoji
+  - jekyll-redirect-from
 
 # Exclude these files from your production _site
 exclude:

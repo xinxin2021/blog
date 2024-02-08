@@ -15,16 +15,17 @@
         wordLimit: {{ site.waline.wordLimit | default: '0' }},
         pageSize: {{ site.waline.pageSize | default: '10' }},
         copyright: {{ site.waline.copyright | default: 'true' }},
-        {% if site.waline.recaptchaV3Key %}recaptchaV3Key: '{{ site.waline.recaptchaV3Key }}',{% endif %}
-        {% if site.waline.turnstileKey %}turnstileKey: '{{ site.waline.turnstileKey }}',{% endif %}
-        reaction: {{ site.waline.reaction | default: 'false' }}
+        {% if site.waline.recaptchaV3Key -%}recaptchaV3Key: '{{ site.waline.recaptchaV3Key }}',{% endif %}
+        {%- if site.waline.turnstileKey -%}turnstileKey: '{{ site.waline.turnstileKey }}',{% endif %}
+        reaction: {{ site.waline.reaction | default: 'false' }},
         texRenderer: (blockMode, tex) =>
           window.MathJax.startup.adaptor.outerHTML(
             window.MathJax.tex2chtml(tex, {
               display: blockMode,
-            }),
+            },
           ),
-        {% if site.waline.lang.custom.enable == true %}locale: {
+        ),
+        {%- if site.waline.lang.custom.enable == true -%}locale: {
           {% if site.waline.lang.custom.reactionTitle %}reactionTitle: '{{ site.waline.lang.custom.reactionTitle }}',{% endif %}
           {% if site.waline.lang.custom.reaction0 %}reaction0: '{{ site.waline.lang.custom.reaction0 }}',{% endif %}
           {% if site.waline.lang.custom.reaction1 %}reaction1: '{{ site.waline.lang.custom.reaction1 }}',{% endif %}
