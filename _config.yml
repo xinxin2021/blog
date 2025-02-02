@@ -7,7 +7,7 @@
 # 井号后面的文字是说明文档，不会被程序读取。
 
 # 描述/签名
-name: 鑫博客
+name: G-TECH
 description: 团结是需要付出代价的
 
 # 输入你的网站域名（如果你没有添加自己的域名，而是直接用GitHub pages分配的域名的话可以省略）
@@ -53,9 +53,6 @@ navigation:
     url: /categories/
   - name: 友链
     url: /friends/
-  # 记得把这里改了，别跳转到我的反馈
-  - name: 反馈
-    url: //support.qq.com/product/
 
 # 友链
 friends:
@@ -147,18 +144,18 @@ footer-links:
   twitter: #https://x.com/<>
   youtube: 
   telegram: #https://t.me/<>
-  weibo: 7661070283
-  zhihu: xinxin-python
+  weibo:
+  zhihu:
   bilibili: 687889425
   qq: 3585097686
   gitee: xinxin-2021
-  ixigua: 2454523622734035
-  xiaohongshu: 6329dfee000000002303be63
-  kuaishou: 3xyuwi6rqfbumm2
-  douyin: MS4wLjABAAAA7Hk3D3pmg5jTQdFPqtJtSTkhyMsKZ0NbU0LHPVlA_0Q
+  ixigua:
+  xiaohongshu:
+  kuaishou:
+  douyin:
 
 # 站点页脚的文字
-footer-text: Copyright &copy; 2023-2024 Xinxin
+footer-text: Copyright &copy; 2023-2025 GTEH
 
 # 输入Google Analytics web tracking code
 google_analytics: G-Z55V8MJGY8
@@ -173,7 +170,7 @@ default-comment: twikoo
 # 输入Disqus shortname，即可添加评论区，请查阅文档，设置自己的disqus站点，不要继续使用我的站点loffer
 # disqus.com
 # 推荐程度：65% 国内访问不方便 否则90% 免费使用有广告
-disqus: xinblog
+disqus: gtech
 
 # 输入Gitalk相关设定，即可添加评论区，具体请看教程
 # gitalk.github.io

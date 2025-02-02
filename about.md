@@ -7,17 +7,17 @@ license-link: publicdomain/zero/1.0/deed.zh-hans
 comments: true
 ---
 
-Hello，我是鑫鑫
+Hi 👋
+
+这里是 GTEH
 
 ### 简介
 
-我 学生党一枚
-
-爱好……肯定是编程啊！ 
+知道的都知道，不知道的以后会知道的。
 
 ### 转载
 
-每篇文章的末尾都标注了许可协议，大多是 [CC-BY-NC 4.0国际](https://creativecommons.org/licenses/by-nc/4.0/deed.zh) 或 [CC0 1.0通用](https://creativecommons.org/publicdomain/zero/1.0/deed.zh)。无标注的代表作者不确定。
+每篇文章的末尾都标注了许可协议，大多是 [CC-BY-NC 4.0 国际](//creativecommons.org/licenses/by-nc/4.0/deed.zh) 或 [CC0 1.0 通用](//creativecommons.org/publicdomain/zero/1.0/deed.zh)。无标注的代表作者不确定。
 
 ---
 
@@ -33,7 +33,7 @@ CC 是 Creative Commons 的简称，中国大陆译名为“知识共享”。CC
 > 
 > - 不得增加额外限制 – 你不能增设任何法律限制或是技术限制，来限制他人进行本许可证已经允许的行为。
 
-本博客大多数文章使用 [CC-BY-NC 4.0国际](//creativecommons.org/licenses/by-nc/4.0/deed.zh) 协议(知识共享署名-非商业性使用4.0国际许可协议)进行许可，少数使用 [CC0 1.0通用](https://creativecommons.org/publicdomain/zero/1.0/deed.zh) 协议进行许可。
+本博客大多数文章使用 [CC-BY-NC 4.0国际](//creativecommons.org/licenses/by-nc/4.0/deed.zh) 协议(知识共享署名-非商业性使用4.0国际许可协议)进行许可，少数使用 [CC0 1.0通用](//creativecommons.org/publicdomain/zero/1.0/deed.zh) 协议进行许可。
 
 > CC0 是 CC 协议以外的一种新的版权声明协议。采用该协议即代表作者宣布放弃该创作的一切版权，该创作进入共有领域。
 > 
@@ -43,25 +43,25 @@ CC 是 Creative Commons 的简称，中国大陆译名为“知识共享”。CC
 > 
 > 值得注意的一点是，中国大陆地区并不允许著作者放弃自己的版权，任何情况下引用版权作品的最低限度是注明作者。因此 CC0 并没有中国大陆的版本。采用这份协议更多意义上是一种声明，即宣布“任何人使用该创作，无论使用于何用途，我都不会追究”，而并不具有主动的法律效应。
 
-以上内容(从上一条分割线开始)被引用内容来自知乎，原文作者昵称为“漠伦”，原文采用 CC-BY 协议进行授权，引用时未经过修改。([原文链接](https://zhuanlan.zhihu.com/p/20641764))
+以上内容(从上一条分割线开始)被引用内容来自知乎，原文作者昵称为“漠伦”，原文采用 CC-BY 协议进行授权，引用时未经过修改。([原文链接](//zhuanlan.zhihu.com/p/20641764))
 
 ---
 
-文章内容如有侵权，请联系 [侵权联系邮箱](mailto:tort@xinxin2021.tk)。
+文章内容如有侵权，请联系 [侵权联系邮箱](mailto:tort@gteh.top)。
 
 ### 友情链接
 
-[个人介绍](//www.gteh.top) / [我爹的博客](//blog.xilong.tk) (关站) / [MacWinLin 工作室官方博客](//blog.macwinlin.ml) (关站)
+[个人介绍](//www.gteh.top)
 
 ## 致谢
 
-感谢 [开源博客 LOFFER](https://fromendworld.github.io/LOFFER/)，本博客由 LOFFER 改编而来。
+感谢 [开源博客 LOFFER](//fromendworld.github.io/LOFFER/)，本博客由 LOFFER 改编而来。
 
 感谢 [Jekyll](//github.com/jekyll/jekyll)，本博客基于 Jekyll 搭建。
 
 感谢 [GitHub Pages](//pages.github.com)，本博客托管于 GitHub Pages。
 
-感谢 [Freenom](//freenom.com) 和 [eu.org](//nic.eu.org) 提供的免费域名及 [Cloudflare](//cloudflare.com) 提供的 DNS 托管、免费加速及防 DDoS 服务。
+感谢 [eu.org](//nic.eu.org) 提供的免费域名及 [Cloudflare](//cloudflare.com) 提供的 DNS 托管、免费加速及防 DDoS 服务。
 
 感谢 [Microsoft](//microsoft.com) 提供的邮箱服务。
 
